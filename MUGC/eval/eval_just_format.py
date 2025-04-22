@@ -19,7 +19,7 @@ TIMEOUT = 10000
 
 deployment_name='captioneval'
 client = AzureOpenAI(
-  azure_endpoint = "https://baaisailing-ae.openai.azure.com/", 
+  azure_endpoint = "https://openai.azure.com/", 
   api_key="your_api_key",  
   api_version="2023-07-01-preview"
 )
