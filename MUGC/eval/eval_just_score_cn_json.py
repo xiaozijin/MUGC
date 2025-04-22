@@ -16,30 +16,12 @@ from openai import AzureOpenAI
 
 
 TIMEOUT = 10000
-# openai.api_type = "azure"
-# openai.api_base = "https://baaisailing-ce.openai.azure.com/"
-# openai.api_version = "2023-07-01-preview"
-# openai.api_key = '4c933ac1b1be461287d5f7bfe45041c2'
 
-# openai.api_type = "azure"
-# openai.api_base = "https://baaisailing-ae.openai.azure.com/"
-# openai.api_version = "2023-07-01-preview"
-# openai.api_key = 'ef58de5b8cca4916a8662761ba3fc830'
-
-# openai.api_type = "azure"
-# openai.api_base = "https://baaimrnd-ae.openai.azure.com/"
-# openai.api_version = "2023-07-01-preview"
-# openai.api_key = 'cd156f683dfc47078bbf54305337a0eb'
-
-# openai.api_type = "azure"
-# openai.api_base = "https://baaiaquila.openai.azure.com/"
-# openai.api_version = "2023-07-01-preview"
-# openai.api_key = '314c94b92ba04eda88ad930d51c1ae69'
 
 deployment_name='captioneval'
 client = AzureOpenAI(
-  azure_endpoint = "https://baaisailing-ae.openai.azure.com/", 
-  api_key="ef58de5b8cca4916a8662761ba3fc830",  
+  azure_endpoint = "https://openai.azure.com/", 
+  api_key="your_api_key",  
   api_version="2023-07-01-preview"
 )
 
