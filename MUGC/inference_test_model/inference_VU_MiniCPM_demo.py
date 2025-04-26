@@ -1,11 +1,7 @@
 import torch
 import sys
-sys.path.append("/share/project/zpf/code/MCCU/inference/MPLUG-OWL/")
+sys.path.append("/share/project/MCCU/inference/MPLUG-OWL/")
 from transformers import AutoTokenizer,AutoModel,AutoModelForCausalLM
-# from mplug_owl_video.processing_mplug_owl import (
-#     MplugOwlImageProcessor,
-#     MplugOwlProcessor,
-# )
 
 import os
 import argparse
@@ -22,39 +18,32 @@ from typing import Tuple, Dict
 import numpy as np
 from decord import VideoReader, cpu
 parser = ArgumentParser()
-parser.add_argument("--output_dir", type=str,default="/share/project/zpf/code/MCCU/datasets/video")
-parser.add_argument("--pretrained_ckpt", type=str,default="/share/project/zpf/code/MCCU/inference/MPLUG-OWL/checkpoints/MiniCPM")
-parser.add_argument("--input_file", type=str,default="/share/project/zpf/code/MCCU/datasets/video/test.json")
+parser.add_argument("--output_dir", type=str,default="/share/project/MCCU/datasets/video")
+parser.add_argument("--pretrained_ckpt", type=str,default="/share/project/MCCU/inference/MPLUG-OWL/checkpoints/MiniCPM")
+parser.add_argument("--input_file", type=str,default="/share/project/MCCU/datasets/video/test.json")
 parser.add_argument("--dataset_root", type=str)
 parser.add_argument("--mode", type=str, choices=["CN", "EN"], default="CN")
 args = parser.parse_args()
 
-# 均匀采样出指定数量的帧,需要采样帧数量和起始结束帧元组，返回帧索引(数组)
 def get_index(num_segments, frames_start_end:Tuple[int,int]):
     frames_start, frames_end = frames_start_end
-    # 帧数量
     num_frames = frames_end - frames_start
 
-    # 帧间隔
     seg_size = float(num_frames - 1) / num_segments
     start = int(seg_size / 2)
-    # 偏移量
     offsets = np.array(
         [start + int(np.round(seg_size * idx)) for idx in range(num_segments)]
     )
     indices = frames_start + offsets
     return indices
 
-# 读取视频特定帧，返回RGB格式图像，需要视频路径，起始结束帧元组，采样帧数量，返回图像列表
 def read_specific_frames(video_path, num_segments, frames_start_end):
     try:
         vr = VideoReader(video_path, height=512, width=512)
         if tuple(frames_start_end) == (0,0):
             frames_start_end = (0, len(vr))
         frame_indices = get_index(num_segments, frames_start_end)
-        # 加载索引帧转numpy数组
         loaded_frames = vr.get_batch(frame_indices).asnumpy()
-        # 转为RGB格式
         images_group = [Image.fromarray(frame).convert('RGB') for frame in loaded_frames]
     except:
         return False
@@ -71,7 +60,6 @@ class VideoMetadataDataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.metadata)
     
-    # 输入内容和索引，返回词典
     def __getitem__(self, idx):
         info = self.metadata[idx]
         if info["start"] == 0 and info["end"] == 0:
@@ -84,7 +72,6 @@ class VideoMetadataDataset(torch.utils.data.Dataset):
         }
     
 
-    # 输入内容，视频路径，返回字典
     def get_video_clip_metainfo(self, video_path, frames_start_end=(0,0)):
         vr = VideoReader(video_path)
         if tuple(frames_start_end)==(0,0):
@@ -102,8 +89,6 @@ class VideoMetadataDataset(torch.utils.data.Dataset):
             "end": frames_start_end[1],
         }
 
-
-    
 MAX_NUM_FRAMES=64
 def collate_fn(data):
     ret={
@@ -203,10 +188,6 @@ def main():
         params={}
         params["use_image_id"] = False
         params["max_slice_nums"] = 2 # use 1 if cuda OOM and video resolution >  448*448
-
-        
-        # # TODO
-        # import pdb ; pdb.set_trace()
         
         info_str_list = [construct_info_str({"video_path":video_path, "frames_start_end":frames_start_end}) for video_path, frames_start_end in zip(video_paths, frames_start_ends)]
         batch_in_processed = [in_processed(processed_set, info_str) for info_str in info_str_list]
@@ -221,9 +202,6 @@ def main():
                 tokenizer=tokenizer,
                 **params
 )
-        # except Exception as e:
-        #     print(f"failed to process {batch['video_path']} because of {e}")
-        #     sentences = [""]*len(video_paths)
 
         for i in range(len(video_paths)):
             if batch_in_processed[i]:
