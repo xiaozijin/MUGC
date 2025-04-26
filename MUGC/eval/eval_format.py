@@ -27,10 +27,10 @@ client = AzureOpenAI(
 
 def get_parsers():
     parser = argparse.ArgumentParser(description="Caption eval.")
-    parser.add_argument("--gold-file", type=str, default='/share/project/zpf/code/MCCU/datasets/image/ref.jsonl')
-    parser.add_argument("--test-file", type=str, default='/share/project/zpf/code/MCCU/datasets/image/First-inference/test_captions_Emu3.json')
+    parser.add_argument("--gold-file", type=str, default='/share/project/MCCU/datasets/image/ref.jsonl')
+    parser.add_argument("--test-file", type=str, default='/share/project/MCCU/datasets/image/First-inference/test_captions_Emu3.json')
     parser.add_argument("--process-num", type=int, default=5)
-    parser.add_argument("--output_path", type=str, default='/share/project/zpf/code/MCCU/datasets/image/format/Emu3')
+    parser.add_argument("--output_path", type=str, default='/share/project/MCCU/datasets/image/format/Emu3')
     args= parser.parse_args()
     return args
 
@@ -118,9 +118,6 @@ def get_caption_data_3():
     for item in test_data:
         if "sorry" in item["caption"]:
             continue
-        # if contains_english(item["caption"]):
-        #     print(item["caption"])
-        #     continue
         test_dict[item["video_path"].split("/")[-1].split(".")[0]] = [item["caption"]]
     for line in open(args.gold_file, 'r'):
         item = json.loads(line)
