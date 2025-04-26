@@ -1,6 +1,6 @@
 import torch
 import sys
-sys.path.append("/share/project/zpf/code/MCCU/inference/MPLUG-OWL/")
+sys.path.append("/share/project/MCCU/inference/MPLUG-OWL/")
 from mplug_owl_video.modeling_mplug_owl import MplugOwlForConditionalGeneration
 from transformers import AutoModel, AutoTokenizer,AutoModelForCausalLM
 from torchvision import transforms
@@ -15,9 +15,9 @@ from PIL import Image
 from argparse import ArgumentParser
 from torch.nn.utils.rnn import pad_sequence
 parser = ArgumentParser()
-parser.add_argument("--output_dir", type=str,default="/share/project/zpf/code/MCCU/datasets/image")
-parser.add_argument("--pretrained_ckpt", type=str,default="/share/project/zpf/code/MCCU/inference/MPLUG-OWL/checkpoints/glm-4v-9b")
-parser.add_argument("--input_file", type=str,default="/share/project/zpf/code/MCCU/datasets/image/test.json")
+parser.add_argument("--output_dir", type=str,default="/share/project/MCCU/datasets/image")
+parser.add_argument("--pretrained_ckpt", type=str,default="/share/project/MCCU/inference/MPLUG-OWL/checkpoints/glm-4v-9b")
+parser.add_argument("--input_file", type=str,default="/share/project/MCCU/datasets/image/test.json")
 parser.add_argument("--dataset_root", type=str)
 parser.add_argument("--mode", type=str, choices=["CN", "EN"], default="CN")
 args = parser.parse_args()
@@ -42,45 +42,15 @@ class ImageMetadataDataset(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         info = self.metadata[idx]
         image_path = perfect_image_path(info["image_path"])
-        # image = Image.open(image_path).resize((500,500)).convert("RGB")
-        # transform = transforms.Pad((500,500))
-        # transform = transforms.ToTensor()
-        # image = transform(image)
-        # print(f"Processed image size: {image.size()}") m
         return {
                 "image_path": image_path
             }
-        # return {
-        #     "image_path": perfect_image_path(info["image_path"]),
-        # }
 
 def collate_fn(data):
     ret={
         "image_path" : [x["image_path"] for x in data],
     }
     return ret
-
-# def custom_collate_fn(batch):
-#     images = [item['image'] for item in batch]
-#     paths = [item['image_path'] for item in batch]
-    
-#     # 找到批次中最大的图像尺寸
-#     max_height = max([img.shape[1] for img in images])
-#     max_width = max([img.shape[2] for img in images])
-    
-#     # 对所有图像进行填充，使它们的尺寸一致
-#     padded_images = []
-#     for img in images:
-#         padding = (0, 0, max_width - img.shape[2], max_height - img.shape[1])
-#         padded_img = transforms.functional.pad(img, padding)
-#         padded_images.append(padded_img)
-    
-#     # 转换为张量
-#     padded_images = torch.stack(padded_images)
-#     return {
-#         "image": padded_images,
-#         "image_path": paths
-#     }
 
 def main():
     seed = 0
@@ -164,7 +134,6 @@ def main():
             progress_bar.update(1)
             continue
         
-        # import pdb ; pdb.set_trace()
         inputs = tokenizer.apply_chat_template([{"role": "user", "image": image, "content": base_prompt}],
                                        add_generation_prompt=True, tokenize=True, return_tensors="pt",
                                        return_dict=True)
