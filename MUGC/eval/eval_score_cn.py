@@ -193,20 +193,6 @@ def call_chatgpt_azure(query):
 def call_chatgpt_azure_ceval(sen):
   template_bustm = '''
     为您提供两个视频的对应caption。gold caption是标准答案，已解析为JSON格式，test caption是生成的结果。现在，我们需要参考标准答案，并对test caption的准确性进行评分。请按照以下步骤进行评估。首先，请从test caption的描述中提取backgroud、object和text部分，形成JSON。JSON字段包括：对backgroud、object和text。object是指标题中的对象，这些对象需要包括但不限于标题中描述的以下属性，如外观、动作、位置。请随时添加任何相关信息。如果没有关于某些属性的描述，则相关字段将填充为空白。backgroud是指出现在标题中的背景，text是指标题中双引号内的文本信息（如果没有双引号，则填写为空白）。\ntest caption转成JSON文件后，可以比较两个JSON中描述的backgroud、object和text之间的相似性，给出background,object和text之间的分数，给出两者中国风元素间的分数，并给出测试标题的分数，所有分数最高分数均为100。\n \
-    {
-        "objects": [
-            {
-                "name": "[name here]",
-                "features": {
-                        "feature1": "[feature1 here]",
-                        "feature2": "[feature2 here]",
-                        ......
-                }
-            }
-        ],
-        "background": "[background here]",
-        "text": "[text here]" 
-    }\n
     gold caption的json如下:\n ''' + sen[1] + ''' \n
     test caption如下:\n ''' + sen[0] + '''\n
     score输出格式:\n \nbackground_score:[background_score here]\n object_score: [object_score here]\n text_score: [text_score here]\n culture_score: [culture_score here]\n total_score: [total_score here]\n \
