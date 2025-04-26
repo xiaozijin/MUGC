@@ -5,25 +5,6 @@ prompt_v4 = "These images below are frames from a video clip. Try to generate a 
 prompt_v5 = "These images below are frames from a video clip. Try to generate a detailed description of the video clip. Accurately describe the salient objects and their relationships, the scene characteristics, any possible text, camera movements, and so on. Directly describe the content of the video. Do not use words like 'video', 'frame', 'image', 'clip', 'sequence', 'footage'."
 prompt_v5_ch = "给出的图片是一个视频片段的帧。尝试生成一个对该视频片段的详细描述。准确描述突出的物体及其之间的关系，场景的特征，任何可能的文字，摄像机的移动等等。直接描述视频的内容。不要使用“视频”、“帧”、“图像”、“剪辑”、“序列”、“片段”等词。请用中文回答。\n对该视频的描述为："
 
-
-# shot_techniques = """Arial View: A perspective captured from above, typically using a drone or helicopter. This viewpoint provides a panoramic view, showcasing the vast expanse of geographical locations and spatial relationships within specific environments.
-# Slow Motion: A shot captured and played back at a reduced speed. Slowing down the action allows the audience to observe subtle movements and details more clearly, enhancing dramatic or aesthetic effects.
-# Close-up: A shot taken with the camera positioned very close to the subject. This type of shot is often used to highlight details, convey emotions, or depict the inner world of the subject.
-# Panoramic View: A shot that captures a wide landscape by horizontally moving the camera. This view offers a panoramic image, conveying the grandeur and vastness of the scene.
-# Tracking Shot: A shot taken by moving the camera along a track following a moving object. This shot captures the dynamic changes of the object and creates an immersive experience, engaging the audience more deeply in the scene.
-# Over-the-shoulder Shot: A shot taken from behind one character's shoulder, showing another character or object. This shot is commonly used in dialogue scenes to allow the audience to better perceive the interaction and emotional exchange between characters.
-# Point-of-view Shot: A shot taken from the perspective of a character. This shot allows the audience to experience the character's viewpoint and emotions, enhancing emotional resonance.
-# Wide Shot: A shot that captures a broad range of scenery, typically used to depict the overall environment and layout of a scene, providing viewers with spatial context and background information.
-# Crane Shot: A shot taken from a high vantage point using a crane or boom. This shot offers a bird's-eye view, providing a unique visual effect often used in opening or climactic scenes.
-# Dolly Shot: A shot taken by moving the camera along a track. This shot achieves smooth movement, allowing the audience to follow the scene's development and enhancing dramatic and emotional expression.
-# Rack Focus: A shot where the focus shifts between foreground and background elements. This technique is often used to change the audience's focus on different elements within a scene, guiding the plot or enhancing visual effects.
-# High-angle Shot: A shot taken from above, looking downward. This shot can make the subject appear smaller and more vulnerable, often used to portray isolation or vulnerability.
-# Low-angle Shot: A shot taken from below, looking upward. This shot can make the subject appear more imposing and authoritative, often used to depict power or threat.
-# Insert Shot: A shot inserted into the main scene to highlight specific details or elements. This shot helps the audience better understand the scene or plot development and emphasizes important details or items.
-# Reaction Shot: A shot capturing a character's reaction to an event or dialogue. This shot helps the audience better understand the character's emotions and inner world, enhancing the expressiveness and appeal of the plot.
-# Handheld Shot: A shot taken with a handheld camera. This shot adds dynamism and realism to the scene, often used to depict tense, urgent, or action-packed scenes.
-# """
-
 shot_techniques = """Arial View: A perspective captured from above, typically using a drone or helicopter. This viewpoint provides a panoramic view, showcasing the vast expanse of geographical locations and spatial relationships within specific environments.
 Slow Motion: A shot captured and played back at a reduced speed. Slowing down the action allows the audience to observe subtle movements and details more clearly, enhancing dramatic or aesthetic effects.
 Close-up: A shot taken with the camera positioned very close to the subject. This type of shot is often used to highlight details, convey emotions, or depict the inner world of the subject.
@@ -31,25 +12,6 @@ Panoramic View: A shot that captures a wide landscape by horizontally moving the
 Tracking Shot: A shot taken by moving the camera along a track following a moving object. This shot captures the dynamic changes of the object and creates an immersive experience, engaging the audience more deeply in the scene.
 Point-of-view Shot: A shot taken from the perspective of a character. This shot allows the audience to experience the character's viewpoint and emotions, enhancing emotional resonance.
 """
-
-shot_techniques_ch = """Arial View（航拍）：从空中俯视的镜头，通常使用无人机或直升机拍摄。这种视角可以提供全景，展示出地理位置的广阔范围和特定环境的空间关系。
-Slow Motion（慢动作）：以较慢的速度拍摄并播放的镜头。通过减慢动作的速度，观众可以更清楚地观察到细微的动作和细节，从而增强戏剧性或美学效果。
-Close-up（特写镜头）：将镜头放置得非常接近拍摄对象的一种镜头。这种镜头通常用于突出显示细节，情感表达或者表现被拍摄对象的情绪和内心世界。
-Panoramic View（全景视图）：通过水平移动摄像机的镜头来捕捉广阔景观的一种镜头。这种视图提供了一个全景的画面，使观众感受到场景的壮丽和广阔。
-Tracking Shot（追焦镜头）：通过摄像机沿着运动对象移动的轨道进行拍摄的一种镜头。这种镜头可以捕捉到对象的动态变化，并营造出一种身临其境的感觉，使观众更加投入到场景中。
-Over-the-shoulder Shot（肩上镜头）：从一个角色的肩膀后面拍摄另一个角色或景物的一种镜头。这种镜头常用于对话场景中，使观众能够更好地感受到角色之间的互动和情感交流。
-Point-of-view Shot（视角镜头）：以某个角色的视角进行拍摄的一种镜头。这种镜头可以让观众身临其境地体验到角色的观点和感受，增强情感共鸣。
-Wide Shot（全景镜头）：捕捉到大范围景物的一种镜头，通常用于展示场景的整体环境和格局，让观众了解到所处的空间位置和场景背景。 
-Crane Shot（吊车镜头）：通过吊车或起重机将摄像机抬高到高处进行拍摄的一种镜头。这种镜头可以捕捉到高度俯视的视角，提供独特的画面效果，常用于场景的开场或高潮部分。
-Dolly Shot（推车镜头）：通过在轨道上移动摄像机来拍摄的一种镜头。这种镜头可以实现平稳的移动效果，使观众跟随着场景的发展而移动，增强戏剧性和情感表达。
-Rack Focus（拉焦镜头）：通过调整镜头焦距使前景和背景交替清晰的一种镜头。这种技巧常用于改变观众对场景中不同元素的关注焦点，从而引导情节发展或加强视觉效果。
-High-angle Shot（高角度镜头）：从上方向下拍摄的一种镜头。这种镜头可以使被拍摄对象看起来较小和无助，常用于表现角色的孤立或者弱势处境。
-Low-angle Shot（低角度镜头）：从下方向上拍摄的一种镜头。这种镜头可以使被拍摄对象看起来更加庄严和威严，常用于表现角色的权威或者威胁性。
-Insert Shot（插入镜头）：插入到主要场景之中的一些细节或局部的镜头。这种镜头可以帮助观众更清楚地理解场景或者情节的发展，并突出展示某些重要的细节或物品。
-Reaction Shot（反应镜头）：捕捉到角色对某一事件或者对话的反应的一种镜头。这种镜头可以帮助观众更好地理解角色的情感和内心世界，从而增强情节的表现力和吸引力。
-Handheld Shot（手持镜头）：用手持摄像机进行拍摄的一种镜头。这种镜头可以增加画面的动态感和真实感，常用于表现紧张、紧急或者动作戏的场景。
-"""
-
 
 prompt_v6 = (
     "Here are some professional photography terms describing various shooting techniques:\n"
@@ -277,4 +239,3 @@ You are the most powerful large multimodal model which is responsible for video 
 """
 
 if __name__ == "__main__":
-    print(prompt_v7())
