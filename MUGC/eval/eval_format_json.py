@@ -1,4 +1,3 @@
-# 比较图片与图片是否对应正确
 import os
 import json
 import requests
@@ -32,31 +31,7 @@ def read_jsonl(file_path):
         for line in f:
             data.append(json.loads(line.strip()))
     return data
-
-#给出background,object和text之间的分数，给出两者中国风元素间的分数
-#background_score:[background_score here]\n object_score: [object_score here]\n text_score: [text_score here]\n culture_score: [culture_score here]
 def call_chatgpt_azure(caption1,caption2):
-    # prompt = '''
-    # 为您提供两个视频的caption。gold caption是标准答案，已解析为JSON格式，test caption是生成的结果。现在，我们需要参考标准答案，并对测试标题的准确性进行评分。请按照以下步骤进行评估。首先，请从test caption的描述中提取backgroud、object和text部分，形成JSON。JSON字段包括：对backgroud、object和text。object是指标题中的对象，这些对象需要包括但不限于标题中描述的以下属性，如外观、动作、位置。请随时添加任何相关信息。如果没有关于某些属性的描述，则相关字段将填充为空白。backgroud是指出现在标题中的背景，text是指标题中双引号内的文本信息（如果没有双引号，则填写为空白）。\ntest caption转成JSON文件后，可以比较两个JSON中描述的backgroud、object和text之间的相似性，并给出测试标题的分数，最高分数为100。\n \
-    # {
-    #     "objects": [
-    #         {
-    #             "name": "[name here]",
-    #             "features": {
-    #                     "feature1": "[feature1 here]",
-    #                     "feature2": "[feature2 here]",
-    #                     ......
-    #             }
-    #         }
-    #     ],
-    #     "background": "[background here]",
-    #     "text": "[text here]" 
-    # }\n
-    # gold caption的json如下:\n ''' + caption1 + ''' \n
-    # test caption如下:\n ''' + caption2 + '''\n
-    # 分数输出格式:\n score: [score here]\n \
-    # 直接生成json和score，不要输出分析
-    # '''
     prompt = '''
     为您提供两个视频的对应caption。gold caption是标准答案，已解析为JSON格式，test caption是生成的结果。现需要从test caption的描述中提取backgroud、object和text部分，形成JSON。JSON字段包括：对backgroud、object和text。object是指标题中的对象，这些对象需要包括但不限于标题中描述的以下属性，如外观、动作、位置。请随时添加任何相关信息。如果没有关于某些属性的描述，则相关字段将填充为空白。backgroud是指出现在标题中的背景，text是指标题中双引号内的文本信息（如果没有双引号，则填写为空白）。\
     {
@@ -77,7 +52,6 @@ def call_chatgpt_azure(caption1,caption2):
     test caption如下:\n ''' + caption2 + '''\n
     请输出并保存格式化后的内容
     '''
-        # 直接生成json和每项score，不要输出分析
     try:
         response = client.chat.completions.create(
             model="gpt-4",
@@ -111,7 +85,7 @@ def process_caption_pair(ref_item, gen_item):
     }
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)  # 使用 json.load() 读取整个 JSON 文件
+        data = json.load(f)  
     return data
 
 class APIStatusError(Exception):
@@ -124,21 +98,19 @@ class APIStatusError(Exception):
         return (self.__class__, (self.response, self.body))
 def main():
     result = []
-    ref_data = read_jsonl('/share/project/zpf/code/MCCU/datasets/image/ref.jsonl')
-    gen_data = read_json('/share/project/zpf/code/MCCU/datasets/image/First-inference/sdxl_clean_caption.json')
+    ref_data = read_jsonl('/share/project/MCCU/datasets/image/ref.jsonl')
+    gen_data = read_json('/share/project/MCCU/datasets/image/sdxl_clean_caption.json')
     save_path = "/share/project/zpf/code/MCCU/datasets/image/format/sdxl.json"
     completed_results = load_progress(save_path)
     completed_count = len(completed_results)
 
-    # 剩余需要处理的pair
     remaining_ref_data = ref_data[completed_count:]
     remaining_gen_data = gen_data[completed_count:]
 
 
-    with Pool(processes=5,maxtasksperchild=10) as pool:  # 使用多进程池，4个并发进程
+    with Pool(processes=5,maxtasksperchild=10) as pool:  
         for i, result in enumerate(pool.starmap(process_caption_pair, zip(remaining_ref_data, remaining_gen_data))):
             completed_results.append(result)
-            # 实时保存进度
             save_progress(completed_results, save_path)
             print(f'已处理 {i + 1} / {len(remaining_ref_data)} 个caption pair')
 
