@@ -17,11 +17,14 @@ The closed-source video generation (VG) models we evaluated include Dream Machin
 
 ## Evaluation Result
 Different tasks of MLLMs,including Image Understanding(IU),Video Understanding(VU).Comparison is made with GPT-4V outputs as the reference (score = 100)
+
 ![](image/Result1.png)
 
 Different tasks of MLLMs,including Image Generation(IG),Video Generation(VG).Comparison is made with GPT-4V outputs as the reference (score = 100)
+
 ![](image/Result2.png)
 
 Comparison of Six MLLM Subsets, including Image Understanding (IU), Video Understanding (VU), Image Generation (IG), and Video Generation (VG).Comparison is made with GPT-4V outputs as the reference (score = 100)
+
 ![](image/Result3.png)
 
