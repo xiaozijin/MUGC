@@ -1,0 +1,482 @@
+[
+    {
+        "response": "score输出格式:\nbackground_score: 92\nobject_score: 96\ntext_score: 0\nculture_score: 0\ntotal_score: 94\n\nexplain输出格式:\nbackground: 两者都提到背景中有模糊的绿色植物，描述高度一致，test额外补充了焦点信息但不影响相似度。\nobject: 对草药的花朵形状、颜色、花序结构，以及叶子和茎的颜色描述几乎完全对应，细节高度吻合。\ntext: gold与test均无引号文本内容，不参与总分计算。\nculture: 两者均未涉及任何文化背景或文化元素描述。\ntotal: background与object两个有效维度均表现出很高的语义一致性，因此总分较高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 90\ntotal_score: 98\n\nexplain输出格式:\nbackground: 两者对夜空烟火场景的描述文字几乎完全一致，细节和意境高度吻合。\nobject: 对象名称（中国爆竹和鞭炮）、外观、动作及位置描述完全对应，细节一致。\ntext: gold与test均无引号文本内容，该维度不参与总分计算。\nculture: 均涉及中国传统烟花爆竹文化元素，test虽未显式标注\"文化\"但内容隐含一致的文化背景。\ntotal: 背景与对象描述高度重合，文化内涵一致，仅文本维度缺失但不影响整体评分，因此总分很高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 98\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者对拍摄手法、场景保持和陶瓷制作氛围的描述几乎完全一致。\nobject: 人物外观、动作及陶瓷物品的塑造过程、工作台细节描述高度吻合，仅表达顺序略有不同。\ntext: gold与test均无引号文本，属于空值情况。\nculture: 均提到陶瓷制作工艺、手工艺人技艺及陶瓷文化，语义高度一致，仅表述略有差异。\ntotal: 背景、对象和文化三方面高度重合，text维度为空不参与计分，因此总分很高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 70\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 90\n\nexplain输出格式:\nbackground: gold明确提到\"工匠的工作场所，转盘上\"，test caption未显式说明工作场所，但通过描述转盘操作隐含了相同背景。\nobject: 两者对工匠外观、动作、位置的描述几乎完全一致，对陶瓷器皿的描述细节也高度重合。\ntext: gold与test均无引号文本，text_score为0且不参与总分计算。\nculture: 两者均未提及任何文化相关内容，该维度无有效信息，不参与总分计算。\ntotal: 由于text和culture均为空，总分主要依据background和object的高相似度加权计算，object权重更高因描述最为详尽且高度匹配。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 55\ntotal_score: 88\n\nexplain输出格式:\nbackground: 两者对寺庙结构、白色灯笼及橙色点缀、柔和光线的描述高度一致，几乎无差异。\nobject: 金色佛像的外观、装饰、宝冠图案、动作（无相机变化）及位置描述完全对应，细节匹配度很高。\ntext: gold 与 test 均未包含引号文本，故不参与总分计算。\nculture: gold 未明确提及文化标签，但佛像与寺庙本身隐含佛教文化背景；test 明确点出“佛教文化”与“中国佛教文化”，语义方向一致但显性程度不同。\ntotal: background 与 object 两个核心维度高度吻合，是总分的主要贡献者；culture 部分隐含一致但显性表达有差异，text 缺失不影响总分。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 30\nobject_score: 35\ntext_score: 0\nculture_score: 55\ntotal_score: 38",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 30\ntotal_score: 8\n\nexplain:\nbackground: gold为近距离聚焦布料的蜡染场景，无环境背景；test为天安门角楼护城河黄昏远景，两者背景设定完全不同。\nobject: gold描述人物手持画笔在布料上绘制蝴蝶图案，test描述天安门角楼、护城河及城墙建筑，对象类型和内容毫无关联。\ntext: 两者均未包含引号文本，text_score记为0且不计入总分。\nculture: gold体现的是蜡染这一民间手工艺文化，test体现的是天安门宫廷建筑文化，两者均属中国文化范畴但具体文化内容不同，存在有限的关联性。\ntotal: 除文化维度有一定的中国元素关联外，背景与对象描述内容完全不同，整体语义相似度极低。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 0\nculture_score: 40\ntotal_score: 15\n\nexplain:\nbackground: gold描述的是天坛公园的露天建筑场景，test描述的是无环境信息的布料特写镜头，两者背景设定完全不同。\nobject: gold的对象是清代建筑与天空云层，test的对象是蜡染工艺中的蝴蝶图案、画笔与布料，二者在主体内容上几乎没有重合。\ntext: gold与test的text字段均为空，不参与总分计算。\nculture: 两者都涉及中国传统文化元素（建筑艺术与蜡染工艺），但具体文化载体和表现形式完全不同，仅在\"中国传统文化\"这一大类上有共通性。\ntotal: 由于background和object维度几乎无重叠，仅culture维度存在较弱的关联性，因此总体相似度很低。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 20\ntotal_score: 90\n\nexplain:\nbackground: 两者都明确说明没有出现其他对象或背景变化，描述完全一致。\nobject: 材质、质感、颜色、光泽及丝绸居中位置等细节高度吻合，几乯逐字对应。\ntext: gold与test均未包含任何引号文本，属于空对空的情况，不计入总分。\nculture: test额外提到“中国丝绸的传统和魅力”，而gold未涉及文化维度，存在信息不对称。\ntotal: 背景与对象描述几乎完全一致，是主要匹配依据；文化维度因gold缺失该信息而权重较低，整体相似度很高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 60\ntotal_score: 93\n\nexplain输出格式:\nbackground: 两者均描述傍晚昏暗天空、山顶佛像与山脚房屋的空间层次，细节高度一致。\nobject: 佛像、树木、灯光、房屋等对象及其外观、位置、动作描述基本一致，test caption 更详细但语义高度重合。\ntext: gold 与 test 均无引号文本，不参与总分计算。\nculture: test caption 明确提及\"中国佛教圣地\"，体现文化背景，而 gold 未显式标注文化字段，仅隐含佛教元素，两者在文化信息完整度上有差异。\ntotal: 背景与对象信息高度吻合，文化信息test更丰富但gold未明确对应字段，整体语义覆盖很高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 10\nobject_score: 5\ntext_score: 0\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 85\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 98\nobject_score: 97\ntext_score: 0\nculture_score: 100\ntotal_score: 98",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 30\ntotal_score: 10",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 5\ntext_score: 0\nculture_score: 40\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 100\nculture_score: 100\ntotal_score: 100",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 25\nobject_score: 5\ntext_score: 0\nculture_score: 10\ntotal_score: 13",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 97",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 20\ntext_score: 0\nculture_score: 25\ntotal_score: 19",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 30\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 95\ntotal_score: 98",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 95",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 0\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 85\ntotal_score: 96",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 4",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 95\ntotal_score: 98",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 95\ntotal_score: 98",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 15\ntotal_score: 6",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 30\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 85\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 3",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 15\ntext_score: 30\nculture_score: 60\ntotal_score: 30",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 5\ntext_score: 0\nculture_score: 55\ntotal_score: 20",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 60\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 100\ntotal_score: 99",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 15\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 5\ntext_score: 0\nculture_score: 40\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 0\ntotal_score: 100",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 20\ntotal_score: 3",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 0\ntotal_score: 0",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 3",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 40\ntotal_score: 90",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 85\ntotal_score: 96",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 10\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 100\nculture_score: 90\ntotal_score: 98",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 30\ntext_score: 90\nculture_score: 85\ntotal_score: 73",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 40\nobject_score: 30\ntext_score: 10\nculture_score: 70\ntotal_score: 41",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 40\ntext_score: 0\nculture_score: 30\ntotal_score: 25",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 70\nobject_score: 55\ntext_score: 85\nculture_score: 90\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 90\ntotal_score: 97",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 0\ntotal_score: 2",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 92\nobject_score: 95\ntext_score: 0\nculture_score: 20\ntotal_score: 90",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 90\nculture_score: 90\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 10\nobject_score: 5\ntext_score: 0\nculture_score: 40\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 92\ntotal_score: 95",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 30\nobject_score: 45\ntext_score: 0\nculture_score: 70\ntotal_score: 48",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 40\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 3",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 5\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 5\ntext_score: 0\nculture_score: 30\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 5\ntext_score: 0\nculture_score: 60\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 0\ntext_score: 0\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 5\ntext_score: 0\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 10\ntext_score: 0\nculture_score: 30\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 10\ntext_score: 0\nculture_score: 30\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 8\ntext_score: 0\nculture_score: 5\ntotal_score: 10",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 0\nculture_score: 15\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 30\nobject_score: 5\ntext_score: 0\nculture_score: 10\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 0\nculture_score: 25\ntotal_score: 10",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 15\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 95\ntotal_score: 97",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 0\ntext_score: 0\nculture_score: 5\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 20\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 60\ntotal_score: 92",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 85\ntotal_score: 94",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 10\nobject_score: 5\ntext_score: 0\nculture_score: 40\ntotal_score: 18",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 5\ntext_score: 10\nculture_score: 30\ntotal_score: 15",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 30\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 15\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 0\ntotal_score: 0",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 5\ntotal_score: 2",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 85\ntext_score: 0\nculture_score: 60\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 15\ntext_score: 0\nculture_score: 40\ntotal_score: 20",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 25\ntext_score: 0\nculture_score: 40\ntotal_score: 25",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 98\nobject_score: 97\ntext_score: 0\nculture_score: 90\ntotal_score: 96",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 15\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 10\ntext_score: 0\nculture_score: 40\ntotal_score: 18",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 5\ntext_score: 0\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 100\nculture_score: 100\ntotal_score: 100",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 70\ntotal_score: 92",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 98\nobject_score: 97\ntext_score: 0\nculture_score: 98\ntotal_score: 97",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 20\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 5\ntext_score: 0\nculture_score: 20\ntotal_score: 12",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 0\ntext_score: 0\nculture_score: 15\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 40\ntotal_score: 8",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 15\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 10\ntotal_score: 3",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 98\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 98\ntext_score: 0\nculture_score: 0\ntotal_score: 99",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 0\ntotal_score: 100",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 90\nculture_score: 85\ntotal_score: 92",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 60\nobject_score: 5\ntext_score: 0\nculture_score: 40\ntotal_score: 25",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 5\nobject_score: 3\ntext_score: 0\nculture_score: 10\ntotal_score: 5",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 15\nobject_score: 5\ntext_score: 0\nculture_score: 30\ntotal_score: 12",
+        "attempts": 1
+    }
+]

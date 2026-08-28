@@ -1,0 +1,482 @@
+[
+    {
+        "response": "score输出格式:\nbackground_score: 85\nobject_score: 82\ntext_score: 0\nculture_score: 0\ntotal_score: 84\n\nexplain输出格式:\nbackground: 两者都描述背景中有模糊的绿色植物，test额外提到泥土，整体高度一致。\nobject: 两者都描述白色伞形花序、细小花瓣密集聚集的特征，高度吻合，但test增加了微风摇曳的动态描写，与gold的静态描述略有差异。\ntext: gold与test均未包含引号文本，故不参与总分。\nculture: 两者均未涉及任何文化元素，故不参与总分。\ntotal: 背景与对象描述高度重合，细节表达基本一致，仅动作状态略有出入，整体相似度较高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 85\ntext_score: 0\nculture_score: 60\ntotal_score: 85",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 70\nobject_score: 65\ntext_score: 0\nculture_score: 50\ntotal_score: 62\n\nbackground: 两者均聚焦陶轮制作陶器的特写镜头，展现制陶工作环境，但gold更抽象强调技艺与文化，test更具体描述工作室物件（陶轮条纹、水盆、散落陶土）。\nobject: 两者都描述双手在陶轮上塑形湿泥的动作，但gold强调圆柱形状和肮脏工作服，test强调拇指按压塑形及最终呈杯罐状容器，细节有差异但核心动作一致。\ntext: 两个caption均无引号文本，故不计入总分。\nculture: gold明确提到\"陶瓷文化\"与手工艺人技艺，test仅通过场景描写间接体现传统技艺，未直接点出文化内涵，相似度中等。\ntotal: 综合背景与对象描述的较高一致性，以及文化维度的间接对应，按缺失文本不计权重计算，总体相似度中等偏上。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 78\nobject_score: 65\ntext_score: 0\nculture_score: 40\ntotal_score: 68\n\nexplain:\nbackground: 两者背景均为陶艺工作坊、转盘/陶轮场景，高度一致，但test caption补充了散落陶土和工具等细节，属于合理扩展。\nobject: 主体人物均为工匠用双手在转盘/陶轮上塑形陶器，动作核心一致，但test中工作服颜色（白色vs灰色）及使用海绵擦拭陶坯的细节与gold描述有差异，属于部分信息不匹配。\ntext: gold与test均无引号文本内容，不参与总分计算。\nculture: 两者均未明确提及具体文化符号或习俗，仅隐含陶艺制作这一传统工艺文化背景，相似度中等偏低。\ntotal: 背景和对象两个维度覆盖度较高且为主要语义来源，文化维度贡献有限，text维度不参与计分，综合评分处于中等偏上水平。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 78\nobject_score: 88\ntext_score: 0\nculture_score: 70\ntotal_score: 81\n\nexplain输出格式:\nbackground: 两者均描述佛像后方为装饰华丽的寺庙/龛结构，并有白色带橙色点缀的悬挂物（灯笼/伞状装饰），整体氛围和光线描述高度一致，仅细节表述不同。\nobject: 双方都详细描绘了金色佛像、华丽的金色宝冠及精致纹饰，test 补充了面部表情和璎珞细节，核心特征高度重合。\ntext: gold 与 test 均未包含引号文本，text_score 不参与总分计算。\nculture: gold 未明确提及宗教文化，但通过佛像、寺庙等元素隐含佛教背景；test 明确点出“佛教艺术”与宗教氛围，语义上有一定重合但表达深度不同。\ntotal: 综合背景与对象的高度一致性以及文化维度的部分重合，总体相似度较高，因文本维度缺失不计入整体评分。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 80\nobject_score: 85\ntext_score: 0\nculture_score: 75\ntotal_score: 82\n\nexplain输出格式:\nbackground: 两者都描述了护城河、平静水面及日落天空的渐变色彩（蓝、粉、金/橙），细节高度吻合，但test额外提及城墙外树木和城市天际线。\nobject: 两者都描述角楼位于护城河边，红墙金瓦的传统建筑风格及其清晰倒影，核心特征基本一致，仅在具体色彩描述（赭红色木雕 vs 红墙金瓦）略有差异。\ntext: gold与test均无引号文本内容，故不参与评分。\nculture: test明确点明\"中国北京故宫\"这一文化地标，而gold仅通过\"中国传统建筑风格\"隐含文化信息，两者文化指向一致但显性程度不同。\ntotal: 在background、object、culture三个有效维度上综合匹配度较高，object和background的具体描述高度吻合，culture因显性程度差异略降，故总体给出较高分数。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 75\nobject_score: 82\ntext_score: 0\nculture_score: 40\ntotal_score: 72\n\nexplain输出格式:\nbackground: 两者都强调镜头特写、背景信息简单模糊，只是gold强调\"无环境信息\"，test强调\"背景模糊\"，语义基本一致但表达略有差异。\nobject: 两者都描述画家手持红色手柄画笔为蝴蝶图案上紫色颜料，核心对象、动作、颜色高度吻合；test补充了更多细节（金棕色轮廓、其他蝴蝶与叶子、渐变效果），信息更丰富但不冲突。\ntext: 双方均无引号文本内容，不参与总分计算。\nculture: gold通过\"蜡染颜料\"暗示了传统蜡染工艺这一文化背景，而test仅描述为普通绘画上色过程，未提及蜡染这一文化技艺名称，文化信息覆盖不足。\ntotal: 背景和对象描述高度一致且test信息更丰富，但因缺失\"蜡染\"这一关键文化元素的显式表达，文化维度得分偏低，综合加权后总分处于中高水平。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 92\nobject_score: 90\ntext_score: 0\nculture_score: 70\ntotal_score: 88\n\nexplain输出格式:\nbackground: 两者都指向天坛（祈年殿），test更具体地点名，背景高度一致。\nobject: 对象描述均涉及三层攒尖顶建筑、红蓝黄配色、白色石阶台基及快速流动的云层，细节高度对应。\ntext: 两者均无引号文本，故该维度不计入总分。\nculture: gold明确标注“中国清朝建筑”体现历史文化属性，test虽未直接点明朝代但通过建筑细节隐含中国传统文化，语义部分重合但文化标签明确度略低。\ntotal: 背景与对象描述高度匹配，文化维度存在细微差异，文本维度缺失不影响总分，综合评分较高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 70\nobject_score: 90\ntext_score: 0\nculture_score: 0\ntotal_score: 85\n\nexplain输出格式:\nbackground: 两者均未提及具体背景，gold明确说明无其他对象或背景变化，test未直接说明但也未引入其他背景元素，整体一致。\nobject: 两者都描述了粉色丝绸材质，强调光滑、光泽、纹理和光影效果，test补充了风中飘动、褶皱等动态细节，核心特征高度一致。\ntext: gold与test均未包含引号文本，此维度为空。\nculture: 两者均未涉及文化元素或象征意义，未提及任何文化背景。\ntotal: 对象描述高度契合，背景保持一致的“无额外元素”，text与culture均缺失不参与加权，因此总分较高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 85\ntext_score: 0\nculture_score: 80\ntotal_score: 82",
+        "attempts": 2
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 85\nobject_score: 78\ntext_score: 0\nculture_score: 30\ntotal_score: 74\n\nexplain输出格式:\nbackground: 两者都描绘了被雪覆盖的中国瓦屋顶，营造出宁静、寒冷的冬日氛围，背景描述高度一致。\nobject: 双方都提到瓦片呈深色带红色斑点、弯曲/波浪形，并被雪覆盖，test additionally描述了镜头移动导致雪层变薄的细节，但整体对象特征吻合度较高。\ntext: 双方均未包含引号文本，因此该维度不参与总分计算。\nculture: gold明确提到\"中国式\"瓦屋顶体现文化特征，而test caption未明确提及文化背景，仅从瓦片形式上隐含，文化维度覆盖较弱。\ntotal: 背景和对象描述高度契合，是主要评分依据；文化信息在test中不够显式，权重较低，因此总分主要由background与object决定。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 88\nobject_score: 62\ntext_score: 0\nculture_score: 20\ntotal_score: 74\n\nexplain:\nbackground: 两者都描述了湛蓝天空点缀几朵白云，场景描述高度一致。\nobject: 两者均包含金色主体建筑与顶部动物造型装饰及风铃元素，但gold为鹿/羚羊造型且描述简洁，test为龙/凤造型带翅膀及更多细节（塔身、基座、银环等），核心结构相似但具体形象和细节差异较大。\ntext: gold与test均未包含引号文本，该维度为空，不参与总分。\nculture: gold未提及任何宗教或文化背景，而test明确描述了宗教庄严祥和的氛围，属于单方面新增信息，缺乏对应比较基础，相似度较低。\ntotal: 背景高度一致，对象部分结构相似但细节差异明显，文化维度因gold缺失对应信息而权重较低，综合评分中等偏上。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 82\ntext_score: 0\nculture_score: 40\ntotal_score: 72\n\nbackground: 两者均描绘长城蜿蜒于群山之中，光线为黄昏或晨昏时分，整体氛围一致，但test补充了薄雾、层次感等细节。\nobject: 长城蜿蜒起伏、消失于天际线、山体覆盖绿色植被等核心特征高度重合，光照描写基本对应，但test新增了树木、岩石纹理等细节，gold更简洁。\ntext: 双方均未包含引号文本内容，故不参与总分计算。\nculture: gold未显式提及文化内涵，test则强调\"世界奇迹\"和\"历史厚重感\"，体现出文化认知层面的补充，但缺乏对应参照，匹配度中等。\ntotal: 背景与对象描述高度一致，是主要匹配维度；文化维度因gold缺乏对应内容而权重较低，text不参与计算，综合得分较高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 65\nobject_score: 85\ntext_score: 0\nculture_score: 40\ntotal_score: 68\n\nexplain输出格式:\nbackground: 两者均描述陶艺制作的手工过程与专注氛围，但gold明确提到“反映中国陶瓷艺术的传统和工匠精神”，test未直接点出文化背景，只强调工艺氛围。\nobject: 两者都详细描述了手部动作、泥土形态变化及陶轮的作用，test在细节（如手指位置、颜色、光泽）上更丰富，与gold描述高度一致。\ntext: gold与test均无引号文本内容，故不参与评分。\nculture: gold明确提到中国陶瓷艺术传统与工匠精神，test仅隐含专业熟练的手工技艺，未直接体现文化层面的表述。\ntotal: 综合来看，object匹配度最高，background部分呼应但缺乏文化明示，culture维度存在差异，整体语义高度重叠但文化内涵表达略弱。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 60\nobject_score: 72\ntext_score: 0\nculture_score: 0\ntotal_score: 68\n\nexplain:\nbackground: 两者都暗示家庭式、安静专注的工作环境，但gold强调\"温馨宁静\"的整体氛围，test则具体描述了几何图案桌布等细节，侧重点略有不同。\nobject: 核心元素高度一致，均描述女性手持红色圆形刺绣框、白色薄纱布料及细针进行刺绣动作；但test额外补充了线的颜色、珠片图案及蓝色小花服饰细节，而gold提到的金戒指未在test中出现，细节层面存在差异但主体对象匹配度较高。\ntext: 两者均未包含引号文本内容，此维度为空。\nculture: 两段描述均未涉及明显的文化元素或象征，仅为日常刺绣场景的客观记录。\ntotal: 由于text和culture维度均为空不参与计分，总分主要由object（权重较高，因细节丰富且高度吻合）与background（权重较低，因描述较笼统）加权得出，整体语义匹配度较好。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 78\ntext_score: 0\nculture_score: 40\ntotal_score: 68\n\nexplain:\nbackground: 两者都描述了简洁、明亮的白色背景和展示性质，但 gold 强调“静态宣传”而 test 强调“镜头旋转”动态展示，存在细微差异。\nobject: 两者都描述了白色陶瓷容器，绘有红、黄、蓝花朵和绿叶图案，细节高度一致；不同点在于 gold 称之为“瓶”带把手细颈，test 称为“水壶”带壶嘴和壶柄，属于器型描述差异。\ntext: 两者均未包含任何引号文字内容，故不计入总分。\nculture: gold 明确标注“中国陶瓷瓶”体现文化归属，test 未显式提及文化背景，仅通过图案风格间接暗示，文化信息覆盖不完全。\ntotal: 对象描述高度相似，背景与文化维度存在一定差异，text 缺失不影响总分，综合来看整体语义匹配度较高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 55\ntext_score: 35\nculture_score: 65\ntotal_score: 60\n\nbackground: 两者背景均为纯红色，高度一致，营造热烈氛围。\nobject: 均为燃烧的鞭炮伴随火花与火焰，但gold强调黑红双色圆筒及顶部“福”字装饰，test强调纯红色圆筒及五角星形“春”字装饰，外观细节存在明显差异。\ntext: gold中的文字为“福”，test中为“春”，均为单字吉祥用语但字符本身不同，语义方向部分重合但不完全一致。\nculture: 两者都涉及春节喜庆文化及红色象征意义，gold聚焦“福”字寓意好运幸福，test聚焦整体节日氛围，主题接近但侧重点略有不同。\ntotal: 背景高度一致，但对象细节（颜色、装饰、文字）差异明显，文化寓意方向相近但具体符号不同，综合导致中等偏上相似度。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 78\ntext_score: 0\nculture_score: 55\ntotal_score: 78\n\nexplain:\nbackground: 两者都描述为户外场景，位置不明确，test caption补充了石质地面和阳光细节，整体语义一致。\nobject: 均描述手轻柔摆弄三尊石狮雕塑，动作和互动方式高度一致，但gold强调白色外观，test补充了蹲坐姿态和手部配饰等细节，核心语义重合度高。\ntext: 双方文本内容均为空，不参与总分计算。\nculture: gold未明确提及文化属性，test通过“古老艺术品”一词隐含文化价值表达，存在一定语义差异但方向一致。\ntotal: 背景与对象描述高度吻合，是主要语义覆盖点，文化维度略有出入但不影响整体一致性，综合评分较高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 78\ntext_score: 15\nculture_score: 75\ntotal_score: 78\n\nbackground: 两者均描述中国传统街道/商业街场景，test补充了地域（江南古镇）等细节，核心背景高度一致。\nobject: 街道建筑、人群着装行为、店铺招牌商品等描述基本对应，test增加了摊位排队与牌楼细节，但gold提到的立牌/吉祥物在test中未体现，整体对象覆盖较高但不完全一致。\ntext: gold未包含任何引号文本，而test列出多个具体招牌文字，因缺失方为gold，该维度视为缺失，不计入总分。\nculture: 两者均体现中国传统建筑与市井文化氛围，test通过灯笼、牌楼、招牌文字进一步强化文化元素，culture契合度较高。\ntotal: 综合背景、对象与文化三方面的语义匹配，test caption在保留gold核心场景基础上补充了更多细节，总体相似度较高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 92\nobject_score: 88\ntext_score: 0\nculture_score: 0\ntotal_score: 90\n\nexplain输出格式:\nbackground: 两者都描述背景模糊、手指与针线成为画面焦点，描述高度一致。\nobject: 两者均描述手指握针、穿红色刺绣线的动作及线圈的形成，test caption 更详细但核心内容与 gold 一致。\ntext: 双方均无引号文本，不参与总分计算。\nculture: 双方均未提及文化元素，不参与总分计算。\ntotal: 背景与对象描述高度重合，是唯一有效参与总分的两个维度，因此总分较高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 20\nobject_score: 85\ntext_score: 0\nculture_score: 15\ntotal_score: 58\n\nexplain输出格式:\nbackground: gold明确指出为中国九寨沟这一具体地点，而test仅泛化描述为\"一处壮观的瀑布景观\"，缺乏具体地理信息，匹配度较低。\nobject: 两者对瀑布水流、岩石侵蚀、水花飞溅、植被覆盖等细节描述高度一致，动感表现也相似，匹配度很高。\ntext: gold与test均未包含引号文本，text维度为空，不参与总分计算。\nculture: gold通过\"九寨沟\"隐含中国地域文化背景，而test完全未提及任何地域或文化线索，culture信息缺失严重。\ntotal: object维度匹配度极高，但background与culture维度因test缺乏具体地点和文化信息而明显弱于gold，综合加权后总分中等偏上。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 60\ntext_score: 0\nculture_score: 0\ntotal_score: 58",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 80\nobject_score: 60\ntext_score: 0\nculture_score: 0\ntotal_score: 70\n\nexplain:\nbackground: 两者都提到傍晚时分、鸟巢广场周边环境，气氛平静宁静，核心场景一致，但test补充了更多环境细节（灰色地面、绿树、帐篷、远处高楼）。\nobject: 两者都描述了鸟巢钢结构外观及广场上不同年龄段的人群活动，但gold特别提到手机、购物袋、婴儿车等具体物品，而test未涉及，转而描述健身、野餐、慢跑等活动，核心人群描写部分重合但细节不完全对应。\ntext: gold与test均未包含引号文本，故不计入总分。\nculture: 两者均未突出鸟巢作为文化地标的象征意义或相关文化内涵，culture维度信息缺失，不参与总分。\ntotal: 综合背景和对象两个维度的匹配程度，场景和主要元素高度一致，但具体物品细节存在差异，因此总分为70。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 68\ntext_score: 10\nculture_score: 85\n\ntotal_score: 74\n\nexplain:\nbackground: 两者都描绘了一个繁忙的中国传统街边小吃市场，氛围相似，但test caption补充了树荫、石板路、路牌等gold未提及的细节。\nobject: 双方都提到摊位、摊贩忙碌服务顾客及因镜头运动导致的人物模糊，但摊位外观描述略有差异（红黑配色+灰招牌 vs 红招牌+红灯笼），且test增加了顾客穿着夏装等细节。\ntext: gold caption无引号文本，而test caption中出现了“王府井西街”这一具体地名文本，属于内容不匹配。\nculture: 两者都强调浓厚的中国传统市集文化氛围，test进一步给出具体地点名称（王府井），增强了文化真实感，整体高度契合。\ntotal: 背景、对象、文化三方面语义高度重合，构成主要相似度来源；text维度因内容不对称拉低部分得分，但因其权重较小，对总分影响有限。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 88\ntext_score: 0\nculture_score: 85\ntotal_score: 88",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 70\nobject_score: 78\ntext_score: 0\nculture_score: 30\ntotal_score: 68\n\nexplain:\nbackground: 两者都描绘了热闹、充满生活气息的市场氛围，但gold明确指出这是\"中国市场\"，test仅描述户外服装摊位和阳光效果，未明确文化背景。\nobject: 两者核心内容高度相似，均描述色彩丰富、整齐折叠堆放的商品（布料/衣物）在摊位上展示，但test提供了更多细节（价格标签、悬挂衣架上的服装），gold聚焦于\"布料\"而test聚焦于\"服装\"，存在细微差异。\ntext: gold与test均未包含引号内文本内容，此维度不参与总分计算。\nculture: gold明确点明\"中国市场\"这一文化标识，而test未提及具体文化归属，仅描述了通用市场场景，文化信息覆盖不足。\ntotal: 背景与对象维度匹配度较高，两者描述的market氛围和商品陈列方式相近；但文化维度存在明显缺失，test未能体现gold中强调的中国文化背景，导致总分有所降低。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 70\nobject_score: 78\ntext_score: 0\nculture_score: 65\ntotal_score: 74\n\nexplain输出格式:\nbackground: 两者都强调操作台面撒有面粉，但gold未指明材质，test明确为木质案板，细节略有差异。\nobject: 两者动作流程高度一致（取皮、勺舀馅料、包裹捏合），但馅料内容不同（黑色馅料/白砂糖 vs 樱桃/白砂糖），主体描述基本对应。\ntext: gold与test均未包含引号文本，该维度不参与总分。\nculture: 两者均隐含中式包饺子的文化背景，但均未显式描述文化元素，相似度中等。\ntotal: 背景与对象维度高度重合，文化维度隐性一致，text为空不计入，总体相似度较高。",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 90\nobject_score: 78\ntext_score: 0\nculture_score: 75\ntotal_score: 82\n\nexplain输出格式:\nbackground: 两者都描述了蓝天与飘动的白云，环境氛围高度一致。\nobject: 均以古代石柱为核心对象，test更细致描述两根石柱及浮雕装饰，但缺少gold中提到的植物生长细节，整体语义仍高度重合。\ntext: 双方均未包含引号文本，因此该维度不参与总分计算。\nculture: 两者都传达出古老历史遗迹的庄严感，test进一步提及“古老文明”与神像浮雕，文化意涵更具体，但方向一致。\ntotal: 背景与对象描述高度吻合，文化内涵相近但细节侧重不同，综合语义匹配度较高。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 60\ntext_score: 0\nculture_score: 70\n\nbackground: 两者均描述旋转餐桌上摆满丰盛中式菜肴，突出视觉吸引力，核心场景高度一致，test补充了餐桌材质和镜头运动等细节。\nobject: 烧鸭与白色陶瓷锅的描述在颜色、配料、位置上基本吻合，但test新增了炸虾仁、红烧鱼、炒青豆等gold未提及的菜品，同时gold中的\"切碎的肉\"未在test中明确对应，存在部分信息不对称。\ntext: 两者文本内容均为空，未提供可比较的引号文本。\nculture: 双方均隐含中式宴席/中餐文化背景，但均未深入展开具体文化寓意或习俗细节，整体较为一致但表达简略。\ntotal: 综合背景与对象的高匹配度及文化背景的一致性（text维度为空不参与计算），test caption在细节上更丰富但与gold存在部分菜品差异，总体相似度中等偏高。\n\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 70\ntext_score: 0\nculture_score: 45\ntotal_score: 65\n\nbackground: 两者均为户外舞狮表演场地，gold提及平房式建筑，test补充了传统屋顶建筑及绿植棕榈树等细节，核心场景一致但细节丰富度不同。\nobject: 舞狮的动作（跳跃、扭动/翻滚）在两者中高度一致，服饰颜色部分重合（均含粉色元素），表演者穿红色服饰、观众中有孩子坐在肩膀上的描述基本对应，整体对象匹配度较高。\ntext: 两者文本内容均为空，不参与总分计算。\nculture: gold未明确提及文化内涵，仅通过舞狮场景隐含传统文化元素；test详细阐述了舞狮的文化象征、喜庆氛围及颜色寓意，两者在文化维度的显性表达差异较大。\ntotal: 综合来看，object和background维度匹配度较高，culture维度因gold缺乏明确表达而权重降低，text不参与计算，总体相似度中等偏上。",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 85\ntext_score: 0\nculture_score: 85\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 70\ntext_score: 15\nculture_score: 75\ntotal_score: 71",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 70\ntext_score: 0\nculture_score: 85\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 75\ntext_score: 25\nculture_score: 60\ntotal_score: 71",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 60\nobject_score: 75\ntext_score: 0\nculture_score: 85\ntotal_score: 73",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 75\ntext_score: 0\nculture_score: 80\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 75\ntext_score: 0\nculture_score: 85\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 70\nobject_score: 50\ntext_score: 0\nculture_score: 75\ntotal_score: 64",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 80\ntext_score: 10\nculture_score: 85\ntotal_score: 77",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 80\ntext_score: 0\nculture_score: 0\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 40\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 78\ntext_score: 0\nculture_score: 85\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 55\ntext_score: 0\nculture_score: 85\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 70\nobject_score: 65\ntext_score: 0\nculture_score: 60\ntotal_score: 66",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 70\ntext_score: 0\nculture_score: 0\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 80\ntext_score: 0\nculture_score: 85\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 88\ntext_score: 0\nculture_score: 60\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 90\ntext_score: 0\nculture_score: 40\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 40\nobject_score: 85\ntext_score: 0\nculture_score: 0\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 90\ntext_score: 0\nculture_score: 80\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 88\ntext_score: 0\nculture_score: 60\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 85\ntext_score: 100\nculture_score: 85\ntotal_score: 89",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 30\nobject_score: 65\ntext_score: 0\nculture_score: 15\ntotal_score: 42",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 60\ntext_score: 92\nculture_score: 75\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 80\ntext_score: 90\nculture_score: 30\ntotal_score: 74",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 65\ntext_score: 0\nculture_score: 25\ntotal_score: 61",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 70\ntext_score: 90\nculture_score: 90\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 55\ntext_score: 85\nculture_score: 90\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 65\ntext_score: 85\nculture_score: 90\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 90\ntext_score: 0\nculture_score: 0\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 85\ntext_score: 80\nculture_score: 90\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 40\nobject_score: 45\ntext_score: 0\nculture_score: 30\ntotal_score: 40",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 85\ntext_score: 20\nculture_score: 75\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 75\ntext_score: 95\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 72\ntext_score: 0\nculture_score: 75\ntotal_score: 71",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 85\ntext_score: 0\nculture_score: 90\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 50\ntext_score: 0\nculture_score: 10\ntotal_score: 35",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 55\ntext_score: 0\nculture_score: 0\ntotal_score: 65",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 75\ntext_score: 0\nculture_score: 30\ntotal_score: 62",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 78\ntext_score: 0\nculture_score: 72\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 88\ntext_score: 0\nculture_score: 80\ntotal_score: 86",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 75\ntext_score: 0\nculture_score: 30\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 75\ntext_score: 0\nculture_score: 15\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 78\ntext_score: 0\nculture_score: 60\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 90\ntext_score: 0\nculture_score: 90\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 85\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 30\nobject_score: 90\ntext_score: 0\nculture_score: 85\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 85\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 65\ntext_score: 0\nculture_score: 30\ntotal_score: 55",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 95\nculture_score: 95\ntotal_score: 93",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 85\ntext_score: 0\nculture_score: 80\ntotal_score: 86",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 85\ntext_score: 0\nculture_score: 75\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 80\ntext_score: 0\nculture_score: 85\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 85\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 88\ntext_score: 0\nculture_score: 75\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 60\ntext_score: 0\nculture_score: 75\ntotal_score: 73",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 70\ntext_score: 0\nculture_score: 40\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 65\ntext_score: 10\nculture_score: 75\ntotal_score: 60",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 85\ntext_score: 0\nculture_score: 80\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 80\ntext_score: 70\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 0\nobject_score: 0\ntext_score: 0\nculture_score: 0\ntotal_score: 0",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 60\nobject_score: 82\ntext_score: 20\nculture_score: 85\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 80\ntext_score: 0\nculture_score: 70\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 72\ntext_score: 15\nculture_score: 65\ntotal_score: 60",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 80\ntext_score: 0\nculture_score: 20\ntotal_score: 82",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 90\nobject_score: 75\ntext_score: 10\nculture_score: 50\ntotal_score: 63",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 30\nobject_score: 85\ntext_score: 15\nculture_score: 50\ntotal_score: 61",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 85\nobject_score: 65\ntext_score: 0\nculture_score: 75\ntotal_score: 76",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 95\nobject_score: 70\ntext_score: 10\nculture_score: 75\ntotal_score: 74",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 70\nobject_score: 80\ntext_score: 10\nculture_score: 85\ntotal_score: 74",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 78\nobject_score: 55\ntext_score: 15\nculture_score: 75\ntotal_score: 58",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 95\nobject_score: 80\ntext_score: 90\nculture_score: 85\ntotal_score: 87",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 90\nobject_score: 55\ntext_score: 40\nculture_score: 85\ntotal_score: 70",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 65\nobject_score: 68\ntext_score: 5\nculture_score: 85\ntotal_score: 68",
+        "attempts": 2
+    },
+    {
+        "response": "background_score: 40\nobject_score: 50\ntext_score: 15\nculture_score: 30\ntotal_score: 40",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 35\nobject_score: 88\ntext_score: 0\nculture_score: 85\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 90\ntext_score: 10\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 62\nobject_score: 58\ntext_score: 10\nculture_score: 78\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 85\ntext_score: 0\nculture_score: 80\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 75\ntext_score: 0\nculture_score: 85\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 80\ntext_score: 0\nculture_score: 60\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 65\ntext_score: 0\nculture_score: 80\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 60\ntext_score: 5\nculture_score: 60\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 40\nobject_score: 55\ntext_score: 0\nculture_score: 60\ntotal_score: 52",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 65\ntext_score: 20\nculture_score: 85\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 58\ntext_score: 15\nculture_score: 45\ntotal_score: 61",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 45\nobject_score: 60\ntext_score: 10\nculture_score: 75\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 70\nobject_score: 60\ntext_score: 20\nculture_score: 30\ntotal_score: 52",
+        "attempts": 1
+    }
+]
