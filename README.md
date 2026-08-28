@@ -7,24 +7,16 @@ we propose MUGC (Multimodal Understanding and Generation in Chinese Cultural Con
 ## Experiment
 We evaluated multiple MLLM models on both generation tasks (image understanding, video understanding) and understanding tasks (image generation,video generation) to verify their performance in comprehending and generating content in a Chinese style.
 
-The image understanding (IU) open-source models we evaluated include CogVLM2, deepseek-vl-7b, qwen-vl-chat-7b, Emu3, GLM4v, internlm-xcomposer2-vl-7b, monkey-chat, llama3-llava-next-8b, llava-mistral-7b, MiniCPMv2.6-8b, onevision-qwen2, InternVL2, Molmo, qwen2-vl, qwen2.5-vl, mPLUG-Owl3-7b, Janus-Pro.
+The image understanding (IU) open-source models we evaluated include Aquila-vl-2B, Cogvlm2-llama3-chinese-19B , Deepseek-vl-7B , Emu3-Chat-8B ,GLM4.1v-9B-Thinking ,GLM-4.6V-10B-Flash (Hong et al., 2025), Intern-s1-mini-9B , MiniCPMV-4.5-9B , Onevision-qwen2-7B , Ministral3-8B-Instruct, Nemotron-nano-12B-2-
+VL , Qwen3.5-9B ,Qwen3-vl-8B-Instruct  and Janus-
+Pro-7B.
 
-The video understanding (VU) open-source models we evaluated include mPLUG-Owl-video, mPLUG-Owl3-video, video-llama2, llava-next-video, InternVL2-video, llava-qwen-video, qwen2-vl, qwen2.5-vl, MiniCPM-video.
+The video understanding (VU) open-source models we evaluated include GLM-4.6V, Nemotron-nano-12B-2-VL,
+VideoLLaMA2-7B, Llava-Next-Video-7B , Llava-Video-7B-Qwen2 , Qwen3.5-9B, Qwen3-vl-8B-Instruct and MiniCPMV-4..
 
-The image generation (IG) open-source models we evaluated include stable diffusion-v1.5, stable diffusion-v3.5, stable diffusion XL base 1.0, stable diffusion-v1.4, dream-like photo real, OpenJourney, Emu3-image, Kandinsky3, sdxl-lightning, sdxl-turbo, flux, Janus-image.
+The image generation (IG) open-source models we evaluated include qwen-image, z-image-turbo, flux2, dream-like photo real, OpenJourney, Emu3-Gen, Kandinsky3, sdxl, sdxl-turbo, flux, Janus-image, Playground V2.5.
 
 The closed-source video generation (VG) models we evaluated include Dream Machine, hailuo, tongyi, Gen2, Pika, Pixverse, kling, VIDU, and zhipu.
 
-## Evaluation Result
-Different tasks of MLLMs,including Image Understanding(IU),Video Understanding(VU).Comparison is made with GPT-4V outputs as the reference (score = 100)
 
-![](image/Result1.png)
-
-Different tasks of MLLMs,including Image Generation(IG),Video Generation(VG).Comparison is made with GPT-4V outputs as the reference (score = 100)
-
-![](image/Result2.png)
-
-Comparison of Six MLLM Subsets, including Image Understanding (IU), Video Understanding (VU), Image Generation (IG), and Video Generation (VG).Comparison is made with GPT-4V outputs as the reference (score = 100)
-
-![](image/Result3.png)
 
