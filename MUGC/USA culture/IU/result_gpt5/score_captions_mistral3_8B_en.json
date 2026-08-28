@@ -1,0 +1,482 @@
+[
+    {
+        "response": "background_score: 85\nobject_score: 72\ntext_score: 95\nculture_score: 98\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 55\ntext_score: 10\nculture_score: 75\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 72\nobject_score: 55\ntext_score: 0\nculture_score: 48\ntotal_score: 59",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 88\ntext_score: 100\nculture_score: 95\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 72\ntext_score: 0\nculture_score: 95\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 72\ntext_score: 0\nculture_score: 90\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 78\ntext_score: 100\nculture_score: 98\ntotal_score: 86",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 78\ntext_score: 0\nculture_score: 95\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 82\ntext_score: 100\nculture_score: 100\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 82\ntext_score: 0\nculture_score: 98\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 88\ntext_score: 0\nculture_score: 80\ntotal_score: 89",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 80\nobject_score: 55\ntext_score: 0\nculture_score: 35\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 88\nobject_score: 72\ntext_score: 55\nculture_score: 92\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 85\nobject_score: 68\ntext_score: 0\nculture_score: 0\ntotal_score: 75",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 65\ntext_score: 95\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 82\ntext_score: 65\nculture_score: 95\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 72\ntext_score: 0\nculture_score: 82\ntotal_score: 75",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 68\ntext_score: 0\nculture_score: 95\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 72\nobject_score: 76\ntext_score: 0\nculture_score: 92\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 62\ntext_score: 0\nculture_score: 85\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 78\ntext_score: 85\nculture_score: 90\ntotal_score: 85",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 55\ntext_score: 0\nculture_score: 15\ntotal_score: 65",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 78\ntext_score: 88\nculture_score: 95\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 62\ntext_score: 0\nculture_score: 95\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 60\ntext_score: 0\nculture_score: 75\ntotal_score: 61",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 65\ntext_score: 0\nculture_score: 70\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 68\ntext_score: 0\nculture_score: 70\ntotal_score: 64",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 75\ntext_score: 0\nculture_score: 90\ntotal_score: 81",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 68\ntext_score: 0\nculture_score: 85\ntotal_score: 66",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 72\ntext_score: 0\nculture_score: 65\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 45\nobject_score: 73\ntext_score: 0\nculture_score: 90\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 65\ntext_score: 20\nculture_score: 90\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 68\ntext_score: 0\nculture_score: 55\ntotal_score: 64",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 92\nobject_score: 82\ntext_score: 0\nculture_score: 95\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 65\ntext_score: 0\nculture_score: 95\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 58\ntext_score: 0\nculture_score: 90\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 62\ntext_score: 0\nculture_score: 35\ntotal_score: 65",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 100\nobject_score: 55\ntext_score: 0\nculture_score: 85\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 35\ntext_score: 0\nculture_score: 65\ntotal_score: 54",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 72\ntext_score: 0\nculture_score: 95\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 88\ntext_score: 0\nculture_score: 65\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 96\ntext_score: 100\nculture_score: 90\ntotal_score: 97",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 75\nobject_score: 82\ntext_score: 0\nculture_score: 90\ntotal_score: 81",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 72\ntext_score: 0\nculture_score: 35\ntotal_score: 65",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 70\nobject_score: 68\ntext_score: 0\nculture_score: 90\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 78\ntext_score: 0\nculture_score: 90\ntotal_score: 75",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 70\ntext_score: 0\nculture_score: 85\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 90\ntext_score: 100\nculture_score: 90\ntotal_score: 91",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 82\ntext_score: 0\nculture_score: 85\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 55\ntext_score: 0\nculture_score: 85\ntotal_score: 67",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 78\ntext_score: 0\nculture_score: 100\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 35\nobject_score: 78\ntext_score: 0\nculture_score: 25\ntotal_score: 69",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 72\ntext_score: 0\nculture_score: 85\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 82\ntext_score: 0\nculture_score: 85\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 78\ntext_score: 0\nculture_score: 40\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 20\nobject_score: 90\ntext_score: 0\nculture_score: 95\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 82\ntext_score: 0\nculture_score: 95\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 35\nobject_score: 78\ntext_score: 0\nculture_score: 80\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 78\ntext_score: 0\nculture_score: 70\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 45\nobject_score: 82\ntext_score: 0\nculture_score: 95\ntotal_score: 73",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 58\ntext_score: 0\nculture_score: 65\ntotal_score: 59",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 86\ntext_score: 90\nculture_score: 95\ntotal_score: 89",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 85\nobject_score: 70\ntext_score: 35\nculture_score: 55\ntotal_score: 66",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 72\ntext_score: 0\nculture_score: 95\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 88\nobject_score: 58\ntext_score: 0\nculture_score: 95\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 78\nobject_score: 72\ntext_score: 65\nculture_score: 90\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 72\ntext_score: 0\nculture_score: 75\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 75\ntext_score: 0\nculture_score: 95\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 82\ntext_score: 95\nculture_score: 100\ntotal_score: 86",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 60\ntext_score: 70\nculture_score: 85\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 92\nobject_score: 88\ntext_score: 55\nculture_score: 90\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 78\ntext_score: 0\nculture_score: 95\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 72\ntext_score: 55\nculture_score: 78\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 82\ntext_score: 0\nculture_score: 100\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 62\ntext_score: 0\nculture_score: 85\ntotal_score: 69",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 78\ntext_score: 0\nculture_score: 95\ntotal_score: 83",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 78\ntext_score: 25\nculture_score: 82\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 58\ntext_score: 0\nculture_score: 35\ntotal_score: 65",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 78\ntext_score: 0\nculture_score: 90\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 92\ntext_score: 90\nculture_score: 95\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 58\ntext_score: 0\nculture_score: 95\ntotal_score: 68",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 92\nobject_score: 90\ntext_score: 0\nculture_score: 98\ntotal_score: 92",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 55\ntext_score: 85\nculture_score: 100\ntotal_score: 69",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 75\ntext_score: 0\nculture_score: 90\ntotal_score: 81",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 78\ntext_score: 0\nculture_score: 95\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 62\ntext_score: 35\nculture_score: 95\ntotal_score: 60",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 72\ntext_score: 0\nculture_score: 92\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 78\ntext_score: 0\nculture_score: 95\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 35\nobject_score: 62\ntext_score: 45\nculture_score: 85\ntotal_score: 58",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 55\nobject_score: 72\ntext_score: 95\nculture_score: 92\ntotal_score: 78",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 62\ntext_score: 55\nculture_score: 95\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 78\nobject_score: 82\ntext_score: 96\nculture_score: 100\ntotal_score: 86",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 84\ntext_score: 0\nculture_score: 90\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 42\ntext_score: 100\nculture_score: 100\ntotal_score: 65",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 70\nobject_score: 62\ntext_score: 0\nculture_score: 35\ntotal_score: 64",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 30\ntext_score: 0\nculture_score: 90\ntotal_score: 48",
+        "attempts": 1
+    },
+    {
+        "response": "score输出格式:\nbackground_score: 75\nobject_score: 68\ntext_score: 0\nculture_score: 95\ntotal_score: 76",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 60\ntext_score: 0\nculture_score: 85\ntotal_score: 67",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 12\ntext_score: 0\nculture_score: 65\ntotal_score: 43",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 72\ntext_score: 0\nculture_score: 100\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 93\ntext_score: 65\nculture_score: 95\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 35\nobject_score: 45\ntext_score: 75\nculture_score: 25\ntotal_score: 44",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 78\ntext_score: 0\nculture_score: 95\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 75\ntext_score: 0\nculture_score: 90\ntotal_score: 82",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 78\ntext_score: 0\nculture_score: 0\ntotal_score: 81",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 86\ntext_score: 0\nculture_score: 90\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 100\ntotal_score: 94",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 78\ntext_score: 0\nculture_score: 75\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 88\ntext_score: 82\nculture_score: 90\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 72\ntext_score: 0\nculture_score: 95\ntotal_score: 80",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 85\nobject_score: 65\ntext_score: 25\nculture_score: 90\ntotal_score: 72",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 68\ntext_score: 55\nculture_score: 45\ntotal_score: 67",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 65\nobject_score: 68\ntext_score: 0\nculture_score: 85\ntotal_score: 70",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 88\ntext_score: 0\nculture_score: 92\ntotal_score: 84",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 82\ntext_score: 0\nculture_score: 100\ntotal_score: 88",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 75\nobject_score: 88\ntext_score: 100\nculture_score: 100\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 90\nobject_score: 82\ntext_score: 0\nculture_score: 92\ntotal_score: 87",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 88\nobject_score: 88\ntext_score: 0\nculture_score: 92\ntotal_score: 89",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 72\nobject_score: 68\ntext_score: 0\nculture_score: 76\ntotal_score: 71",
+        "attempts": 1
+    },
+    {
+        "response": "background_score: 82\nobject_score: 64\ntext_score: 0\nculture_score: 55\ntotal_score: 72",
+        "attempts": 1
+    }
+]
