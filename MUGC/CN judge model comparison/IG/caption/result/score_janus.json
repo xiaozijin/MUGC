@@ -1,0 +1,362 @@
+[
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述为纯白色背景，完全一致。\nobject: 烤鸭的外观、姿态、位置及细节描述高度吻合，仅测试描述中增加了“真实照片”风格说明，不影响核心对象特征。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均未涉及文化相关内容，故为0分。\ntotal: 对象和背景信息完整且高度一致，文本和文化维度为空，因此总分主要基于对象和背景的匹配度，给予97分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述背景简单、不引人注目，并强调家常温馨氛围，高度一致。\nobject: 对麻婆豆腐、碗、布巾和勺子的外观、位置及细节描述几乎完全对应，仅个别表述顺序略有差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 均明确提及“中国特色传统菜肴”及辣麻风味结合，文化指向一致，仅表述详略略有不同。\ntotal: 因object和background高度吻合，且culture信息完整，综合语义重要性加权后给出96分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 80\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述“图片背景为模糊处理”，完全一致。\nobject: 对象描述高度吻合，包括鱼、面食、瓷器及其位置、外观、辅助工具等细节，仅缺少“口感”这一主观描述，故扣少量分。\ntext: 两者均无引号内文本，按规则计0分。\nculture: 测试描述明确提及“具有中国特色”，而gold未显式标注，但内容本身隐含中国饮食文化，故给予较高分但非满分。\ntotal: 综合四项，object和background为关键维度，权重最高；culture次之；text为空不计入，故总分为93。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 0\ntotal_score: 93\n\nbackground: 两者均描述模糊背景突出前景主体，语义高度一致。\nobject: 烤羊腰子外观、位置、生菜叶及调料颗粒等细节均匹配，仅表述略有扩展。\ntext: 双方均无引号内文本，故为0分。\nculture: 双方均未涉及文化相关内容，故为0分。\ntotal: 背景和物体描述高度吻合，且物体细节丰富，综合质量优秀，故总分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 两者均明确描述为中国传统水墨画，且风格、意境表述完全一致。\nobject: 秃鹫的外观、动作、位置及笔墨细节描述高度吻合，信息一一对应。\ntext: 两个 caption 中均无引号内文本，故该项为0分。\nculture: 均强调中国水墨画的自由奔放风格与特有韵味，文化内涵表述一致。\ntotal: 背景、对象、文化三项均完全匹配，且无文本内容，整体语义高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 100\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述为纯白色背景，完全一致。\nobject: 对象名称、外观、位置及瓷盘特征均匹配，test caption额外补充了烤痕、数量等细节，但核心信息一致，仅因细节增加略有差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: test caption明确提及冻豆腐为中国东北火锅常见食材及手工卤水工艺，gold caption虽未直接提及，但对象本身隐含文化属性，且test补充内容与gold无冲突，故高度一致。\ntotal: 背景和对象高度吻合，文化补充合理且不冲突，文本项为空不参与加权，综合评分高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 两者均描述为“红色背景”，完全一致。\nobject: 对艺术品的组成、底座、佛像、光背等外观特征描述完全吻合，无遗漏或差异。\ntext: 双方均无引号内文本，故为0分。\nculture: 均明确提及“藏传佛教的金属艺术品”，文化属性一致。\ntotal: 四项中除text为空外，其余三项均完全匹配，且背景、物体、文化均为核心内容，故总分为满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述为家庭式厨房环境，test caption 还补充了“淡棕色台面”和“温馨感”，与 gold 高度一致。\nobject: 所有对象（砂锅、羊排、姜片、大葱、汤汁、辣椒、蔬菜叶）及其外观、位置、动作均被完整覆盖，仅个别描述顺序和措辞略有差异，语义几乎完全匹配。\ntext: 两者均无引号内文本，故为0分。\nculture: test caption 明确提及“传统中式砂锅煮羊排”，与 gold 隐含的中式家庭烹饪文化背景相符，且整体氛围描述强化了文化语境。\ntotal: 因 object 和 background 高度吻合，且 culture 体现明确，text 为空不参与加权，综合评分极高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain输出格式:\nbackground: 两者均描述为“淡黄色的桌面”，完全一致。\nobject: 所有对象（厦门鸭肉粥、脆皮鸭皮、白色圆碗）的外观、动作、位置及附加信息均被准确覆盖，仅个别描述顺序或措辞略有差异，语义高度一致。\ntext: 两个 caption 中均无引号内文本，故为0分。\nculture: 两个 caption 中均未包含文化相关内容，故为0分。\ntotal: 背景和对象信息完整且高度匹配，是核心内容；文本和文化维度为空，不参与加权，因此总分接近满分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain输出格式:\nbackground: 两者均描述为“黄色的圆形背景”，完全一致。\nobject: 所有对象（兔子、叶子、线条）的名称、外观、位置和动作均与gold caption高度吻合，仅额外提及“两片”叶子，无实质差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: gold caption未包含文化元素，test caption虽提及中秋节，但gold中无对应内容，故评分为0。\ntotal: 因text和culture维度无对应内容，总分主要基于background和object的完全或高度匹配，动态加权后给出97分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述夜晚黑暗背景与灯笼的强烈对比，test caption 完全覆盖 gold 的背景描述，语义一致。\nobject: test caption 准确描述了红色莲花灯笼的外观、动作和位置，以及周围小灯笼的形状、颜色和排列，并补充了紫色荧光线条，与 gold 高度吻合。\ntext: 两个 caption 均无引号内文本，故为 0 分。\nculture: test caption 明确提及中秋节和中国特色，与 gold 隐含的节日文化氛围相符，但 gold 未显式说明，故略有扣分。\ntotal: 综合四项，object 和 background 为核心内容且高度匹配，culture 为重要补充，text 不适用，动态加权后总分为 93。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述了深紫色夜空、浅橙色圆桌和水面，高度一致。\nobject: 所有对象（月亮、孔明灯、小白兔、月饼、荷花）及其外观、动作、位置均完全匹配，仅细节描述略有扩展。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均明确体现中秋节赏月、吃月饼、放孔明灯等文化元素，test caption还点明了“中秋节”主题，契合度高。\ntotal: 综合四项维度，object和background高度吻合，culture明确，text不适用，整体语义完整且一致，故给予高分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 80\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述背景为黑色一片，且强调与印章的对比，完全一致。\nobject: 对象描述高度吻合，涵盖印章外观、猫科动物形态、位置及大小等细节，仅缺少“真实照片”这一风格说明，故扣少量分。\ntext: 两个caption中均无引号内文本，因此得分为0。\nculture: 两者均提及“清代老提油”这一文化属性，但test caption未额外扩展文化背景，故略低于满分。\ntotal: 综合四项，object和background为关键内容且高度一致，culture略有不足，text不参与计算，故总分为93。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 0\ntotal_score: 100\n\nexplain:\nbackground: 两者均明确描述为“真实照片”风格，完全一致。\nobject: 对油焖大虾的外观、动作、位置及葱花等细节描述与gold caption完全吻合，无遗漏或差异。\ntext: 两个caption中均无引号内文本，故评分为0。\nculture: 两个caption均未涉及特定文化元素，故评分为0。\ntotal: 因background和object两项核心内容完全匹配，且text和culture为空，故总分基于主要语义内容给予满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述整体色调以黄色和白色为主，传递温暖甜蜜的印象，高度一致。\nobject: 对雪梨碗状形态、冰糖蜂蜜质地、梨肉纤维、浅绿玻璃碟、旁置果肉及中心红枣等细节描述完全吻合，仅个别表述略有扩展。\ntext: 两个 caption 中均无引号内文本，故评分为0。\nculture: 两者均提及“中国特色”或“中国传统烹饪中常见的点缀”，文化指向一致，test caption 表述更明确。\ntotal: 因 text 为空，总分主要基于 object 和 background 的高相似度，并结合 culture 的明确体现，综合加权后给出96分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: test caption 与 gold caption 在背景描述上高度一致，均强调构图简洁和谐、颜色自然，并体现中国茶文化意境，仅表述略有差异。\nobject: test caption 完整覆盖了 gold caption 中所有对象细节，包括组成、设计、颜色、镂空、茶海形状、牛奶罐设计及用途，语义几乎完全匹配。\ntext: 两个 caption 的 text 字段均为空，因此评分为 0。\nculture: 两者均明确提及中国茶文化、传统图案及审美意境，文化内涵表达一致，仅 gold caption 更简洁，test caption 更具体。\ntotal: 由于 object 和 background 信息高度重合且为核心内容，culture 也充分体现，text 为空不参与加权，综合评分 96 分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述“整体构图简洁，以红色为主色调，营造出喜庆祥和的氛围”，语义完全一致。\nobject: 门帘、门框、墙壁、木质门扇和金色门把手、相框照片等对象及其外观、位置、动作描述高度吻合，仅个别细节表述略有差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确提及“中国传统喜庆元素”，文化内涵一致，仅表述详略略有不同。\ntotal: 对象和背景描述高度一致，文化内涵吻合，整体语义几乎完全对应，故综合评分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 95\n\nexplain:\nbackground: 两者均描述背景为蓝色，氛围平静温馨，完全一致。\nobject: 所有对象、外观、动作、位置及数量均匹配，仅test caption额外提及“数字艺术”样式和整体构图，不影响核心对象描述。\ntext: 两者均无引号内文本，故为0分。\nculture: gold caption未明确提及文化元素，但test caption补充了“中国传统家庭团圆饭”和“春节团聚”的文化背景，与图像内容相符，略有扩展但无冲突。\ntotal: 对象和背景高度一致，文化补充合理，文本缺失不扣分，综合评分95。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 70\ntotal_score: 92\n\nexplain:\nbackground: 两者均描述夜空为深邃的黑色背景，完全一致。\nobject: 烟花和烟雾的外观、动作、位置描述高度吻合，仅test caption额外补充了烟花形状细节，未改变核心信息。\ntext: 两者均无引号内文本，故为0分。\nculture: gold caption未涉及文化内容，test caption补充了过年喜庆氛围，属于合理延伸，但非必需，故给予中等偏上评分。\ntotal: 背景和物体描述高度一致，文化延伸合理，文本缺失不影响整体，综合加权后得分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 70\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述了绿色植被、灰色主色调及安宁氛围，语义高度一致，仅缺少“数字艺术”风格修饰。\nobject: 所有对象（女士、墓碑、树枝、鲜花）的外观、动作、位置均完全匹配，细节描述几乎逐句对应。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: test caption明确提及“清明节扫墓祭祖”的传统习俗，gold caption未直接点明，但墓地场景隐含文化背景，部分匹配。\ntotal: 对象和背景描述高度吻合，文化维度补充了节日内涵，综合评分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 测试描述与金标准在背景内容上高度一致，均提及模糊的户外自然环境、花园或公园、绿色植物和红色花朵，仅缺少“整体上”的总结性描述。\nobject: 测试描述对人物的服饰、饰品、发型、头饰等细节描述与金标准几乎完全一致，覆盖所有关键特征，仅增加了“图像的样式是真实照片”这一额外信息，不影响核心对象描述。\ntext: 金标准与测试描述中均未包含引号内文本，因此该项评分为0。\nculture: 测试描述明确提及“中国传统文化和服饰”，与金标准中“具有中国特色的服装”等文化元素高度吻合，且额外强调了文化感受，文化关联性充分。\ntotal: 对象描述最为详尽且与金标准高度一致，背景描述也完全匹配，文化元素明确体现，文本项为空不参与加权，综合评分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 85\ntotal_score: 90\n\nbackground: 两者均描述为深色木质桌面，完全一致。\nobject: 茶具、茶壶、茶杯、黑色容器及竹制工具等核心对象及位置、外观描述高度吻合，仅茶杯数量（gold未明确，test为六个）略有补充。\ntext: 双方均无引号内文本，故为0分。\nculture: test明确提及中国传统文化与审美特点，gold虽未直接标注但茶具本身蕴含文化属性，语义上高度相关。\ntotal: 对象与背景描述高度一致，文化内涵自然融入，整体质量优秀，动态加权后得分90。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 70\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述深蓝色织物背景，test caption 补充了“皱褶”细节，核心一致。\nobject: 所有对象（瓷碗、鱼、汤汁）的外观、位置、颜色、细节均高度吻合，仅表述顺序略有差异。\ntext: 两个 caption 均无引号内文本，故为0分。\nculture: gold 未明确文化元素，test 提及“中式鱼肉料理”，属于合理推断，但非直接对应，故评分中等。\ntotal: 对象和背景高度一致，文化推断合理但非必需，整体质量优秀，动态加权后得分高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 80\ntotal_score: 93\n\nexplain:\nbackground: 测试描述与金标准完全一致，均提及朦胧云海、淡黄至深褐的渐变。\nobject: 人物、服饰、项链、带子、长剑的外观、位置及细节均高度吻合，仅缺少“图像中的人物”这一对象名称的显式提及，但内容覆盖完整。\ntext: 金标准与测试均无引号内文本，故为0分。\nculture: 测试额外点明“传统中国绘画”风格，金标准未明确提及，但服饰纹样和整体描述隐含文化属性，部分匹配。\ntotal: 对象细节和背景描述高度一致，文化维度有补充但非核心，综合加权后总分为93。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均描述了蓝色桌子上的丰盛中式火锅场景，背景信息完全一致。\nobject: 所有对象（火锅、竹签、小碟、花生米、青椒、炸物饮品、筷勺）及其特征、位置、动作均完全匹配。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确体现中式火锅文化，描述一致。\ntotal: 四个维度中除text为空外，其余三项均完全一致，且背景、对象、文化均高度契合，整体语义完全对应，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 测试描述与金标准完全一致，均指出背景为深色调，突出玉器细节和质感。\nobject: 测试描述完整覆盖金标准中所有对象特征，包括玉器外观、龙纹细节、动作、位置及附加信息，无遗漏或偏差。\ntext: 金标准与测试描述中均无引号内文本，故得分为0。\nculture: 测试描述明确提及“中国特色”、“传统文化底蕴”，与金标准中文化内涵高度吻合。\ntotal: 四项维度中object和culture为核心内容，background为辅助，text为空，综合语义重要性加权后，整体描述与金标准高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 两者均描述为纯黑色背景，完全一致。\nobject: 对模特服装、配饰、动作和位置的描述高度吻合，仅增加了“真实照片”和“古典优雅”等修饰性词语，核心信息一致。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均明确指向中国传统服饰风格，test caption额外点明“中国特色的传统服装风貌”，与gold caption隐含的文化属性相符。\ntotal: 背景和物体描述高度一致，文化属性明确，文本项为空不参与加权，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 80\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述为“米黄色的草编材料”，完全一致。\nobject: 对豆腐外观、葱花、香菜、酱汁等细节描述高度吻合，仅test caption额外补充了感官和构图描述，不影响核心一致性。\ntext: 两者均无引号内文本，故为0分。\nculture: gold仅提及“台湾街头食品”，test补充了“中国特色”及风味特点，语义一致且更丰富，略有扩展但未偏离。\ntotal: 综合四项，object和background高度匹配，culture基本一致，text不参与，故加权总分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 92\n\nexplain:\nbackground: 两者均描述了红色墙面及金色边框圆形图案，test caption补充了对比效果，语义高度一致。\nobject: 石狮子、底座、植被、墙面图案、灯具等对象及其外观、动作、位置均被完整覆盖，细节匹配度高，仅个别描述略有扩展。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确体现中国传统文化元素（石狮子、红墙、纹饰），test caption额外点明审美情趣，文化内涵一致。\ntotal: 综合四项维度，object和background为核心内容且高度匹配，culture作为重要文化背景也较一致，text缺失不参与加权，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均描述了中国清真寺屋顶部分，色调偏暗，突出岁月痕迹和古老氛围，内容完全一致。\nobject: 对屋顶、防鸟网、屋脊兽、屋檐的外观、位置及特征描述完全吻合，无遗漏或差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 均提及屋脊兽作为中国古建筑典型特色及其象征意义，文化内涵表述一致。\ntotal: 背景、物体和文化维度均高度一致，且无文本内容，综合评分满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均明确指出“具有浓厚中国特色的剪纸作品”，test caption 额外补充了“数字艺术”样式，核心背景一致。\nobject: 所有对象（浴桶、男性、女性、大耗子、五只小耗子）及其外观、动作、位置均完全匹配，仅个别描述词略有差异（如“花纹”vs“花红”），高度一致。\ntext: 两个 caption 中均无引号内文本，故为0分。\nculture: 两者均强调中国民间艺术风格、剪纸特色及夸张有趣的图案处理，文化内涵表达一致，test caption 还额外补充了“线条流畅、色彩鲜明”等细节，略有加分。\ntotal: 因 object 和 background 高度吻合，culture 也基本一致，text 为空不计入，整体语义覆盖完整，故综合评分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 背景描述完全一致，包括真实照片风格、中国农村户外场地、土黄地面、青山、树木和淡蓝天空等细节均匹配。\nobject: 所有对象（人群、旗杆旗帜、摩托车）的外观、动作、位置描述与gold caption完全对应，无遗漏或差异。\ntext: 两个caption中均无引号内文本，因此该项为0分。\nculture: 民俗特色、少数民族服饰、传统节日氛围等文化元素描述完全一致。\ntotal: 因background、object、culture三项均完全匹配，且text为空不参与加权，整体语义高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 背景描述完全一致，均为单一深棕色与主体形成鲜明对照。\nobject: 对象描述高度吻合，男士、长袍、长裤的外观细节均准确对应，仅缺少“男士”动作或位置等未提及信息，故扣少量分。\ntext: 双方均无引号内文本，按规则计0分。\nculture: 双方均明确体现蒙古传统服饰风格，文化指向一致，但test caption未额外扩展文化背景，故略扣分。\ntotal: 综合四项维度，object和background为关键内容且高度匹配，culture次之，text为空不参与，故加权总分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 100\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 两者均描述纯黑背景及左上角粉色花朵装饰，内容完全一致。\nobject: 儿童外观、动作、位置及扇子细节均完全匹配，无差异。\ntext: 两者均包含“遇事”文本，完全一致。\nculture: 两者均强调传统中国风格服饰及文化气息，描述一致。\ntotal: 所有维度高度一致，整体语义完全对应，故总分为满分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nbackground: 两者均描述为“一间屋内的桌子上”，完全一致。\nobject: 扇子及桌上物品（书、花瓶、小鸟装饰）的描述高度吻合，仅细节表述略有差异。\ntext: 两者均无引号内文本，故为0分。\nculture: 均强调“中国特色”、“汉式”及婚礼/舞台用途，文化内涵一致，仅表述详略不同。\ntotal: 背景和物体描述高度一致，文化元素匹配，整体质量优秀，故综合评分高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 两者均无背景描述，完全一致。\nobject: 对象描述高度一致，包括服装细节、头饰、背面设计等均相同，仅test caption额外提及“真实照片”样式，不影响核心内容。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均明确提及新疆维吾尔族传统风格，test caption额外补充了“充分展示了新疆地区少数民族服装的特色”，文化指向一致且更明确。\ntotal: 对象和背景信息高度吻合，文化表达一致，text为空不参与加权，综合评分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 70\ntotal_score: 93\n\nexplain:\nbackground: 测试描述与金标准完全一致，均强调颜色对比明显、食物新鲜诱人。\nobject: 所有对象（猪肚、莲子、香菜叶、肉汤、瓷碗）的外观、动作、位置均与金标准高度吻合，仅缺少“碗边缘较宽”的细节描述，故扣少量分。\ntext: 金标准与测试描述中均无引号内文本，因此得分为0。\nculture: 测试描述明确提及“中国传统美食中一种常见的养生汤品”，而金标准未包含文化信息，但测试补充内容合理且不冲突，给予中等偏上评分。\ntotal: 对象和背景描述高度一致，文化补充合理，文本维度不适用，综合加权后总分为93。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述了灰色桌布和模糊紫色花卉图案，内容完全一致，仅表述顺序略有差异。\nobject: 对烤肉竹筒饭、竹筒和木制托盘的描述在细节、位置和状态上高度吻合，几乎逐句对应，仅个别词语顺序调整。\ntext: 两个caption中均无引号内文本，故评分为0。\nculture: 两个caption均未涉及文化相关内容，故评分为0。\ntotal: 由于object和background是核心内容且高度一致，text和culture为空，因此总分主要基于object和background的加权，综合反映整体caption质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述背景模糊，隐约可见其他物件，内容高度一致。\nobject: 陶瓷形状、图案细节、底座、桌面等对象及特征描述几乎完全对应，仅个别细节（如白色小点）略有补充。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均体现中国传统山水画艺术风格，test caption额外点明“中国传统艺术之美”，语义一致且略有升华。\ntotal: 对象描述极为详尽且准确，背景和文化维度高度契合，整体质量优秀，故给予高分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 两者均描述为中国传统水墨画，暗褐色系，画面内容一致，完全匹配。\nobject: 对树、牛、鹤的外观、动作、位置描述完全一致，细节无遗漏，完全匹配。\ntext: 两者均无引号内文本，按规则计0分。\nculture: 均明确体现中国传统水墨画风格，文化内涵一致，完全匹配。\ntotal: 四项维度中背景、物体、文化均完全一致，且文本为空不参与加权，整体语义高度吻合，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain:\nbackground: 测试描述与金标准完全一致，均明确为“黑色带有细小凸起点状纹理的表面”。\nobject: 对象外观、动作、位置等特征描述与金标准高度吻合，仅缺少“天然正品”这一额外评价，不影响核心信息。\ntext: 金标准与测试描述中均无引号内文本，故为0分。\nculture: 金标准与测试描述中均未涉及文化相关内容，故为0分。\ntotal: 对象描述完整且准确，背景一致，整体语义覆盖度高，动态加权后给予高分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 100\ntotal_score: 97\n\nbackground: 两者均明确描述为“江南水乡古镇的景象”，内容完全一致。\nobject: 所有对象（河流、游船、建筑、天空、绿树）及其特征（颜色、位置、状态、装饰）均高度吻合，仅个别细节如“数只”与“一只”略有差异，整体几乎完全匹配。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均突出江南水乡、传统木船、红灯笼、白墙黑瓦等典型文化元素，文化内涵表达一致。\ntotal: 因text为空不计入，其余三项中object和culture权重较高，background作为整体场景支撑，综合评分97分，反映高度一致性。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 0\ntotal_score: 100\n\nexplain:\nbackground: 两者均描述为纯色黑暗背景，突出服装颜色和细节，语义完全一致。\nobject: 对女性外貌、动作、服装细节及位置的描述完全吻合，无遗漏或差异。\ntext: 两个caption中均无引号内文本，故该项为0分。\nculture: 两个caption中均未涉及文化相关内容，故该项为0分。\ntotal: 因text和culture维度为空，总分仅基于background和object，两者完全一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 70\ntotal_score: 95\n\nexplain:\nbackground: 两者均描述背景模糊、可见其他餐具和灰白色桌面，信息高度一致。\nobject: 所有对象（煲具、把手、汤汁、猪肚、鸡块、勺子）的名称、外观、动作、位置均完全匹配，仅细节描述略有详略差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: test caption明确点出“中式烹饪中的猪肚包鸡”，而gold caption未直接提及菜名或文化属性，但食材组合隐含中式饮食文化，故给予中等偏上评分。\ntotal: 对象和背景描述高度吻合，且文化信息虽未在gold中明示但可推断，整体语义完整且准确，故综合评分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均描述为“紫色的桌布”，完全一致。\nobject: 所有对象（鱼头、鱼片、盘子、装饰、葱花辣椒圈等）的外观、位置、特征描述完全吻合。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均提到“展现了中国传统美食的精神”，文化内涵一致。\ntotal: 四项中除text为空外，其余三项完全匹配，且object和culture为关键内容，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述背景为暗褐色调，完全一致。\nobject: 对象名称、外观、颜色、釉面分界、工艺等描述高度吻合，仅测试文本补充了“真实照片”和“古玩真品”等额外信息，不影响核心特征匹配。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两个caption均未涉及文化相关内容，故为0分。\ntotal: 背景和对象维度信息完整且高度一致，是核心内容，赋予高权重；文本和文化维度为空，不参与加权，综合得分97。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 测试描述与金标准在背景描述上高度一致，均强调构图简洁、色彩调和及传统工艺优雅，仅缺少“真实照片”这一风格说明，故扣少量分。\nobject: 测试描述完整覆盖了金标准中所有对象（盖碗、盖子、垫板、瓷杯）的外观、动作和位置，细节几乎逐句对应，仅个别措辞略有差异，故得分极高。\ntext: 金标准和测试描述中均无引号内文本，因此按规则该维度得分为0。\nculture: 测试描述明确提及“中式茶具的古典韵味”和“中国传统陶瓷工艺”，与金标准中的文化内涵高度吻合，仅未额外扩展其他文化元素，故得分较高。\ntotal: 综合四项维度，object和background为描述核心且匹配度极高，culture作为重要文化背景也高度一致，text为空不参与加权，故总分接近满分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain输出格式:\nbackground: 两者均描述为真实照片风格，完全一致。\nobject: 对象名称、外观、动作、位置及细节描述完全匹配，无遗漏或差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 均提及核桃纹理描绘自然元素并体现中华文化对自然的崇敬，内容一致。\ntotal: 所有非空维度均完全一致，且文化维度与对象维度高度相关，整体质量等同，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述背景模糊，无法看出具体内容，完全一致。\nobject: 对算盘的外观、结构、颜色、磨损及放置位置描述高度吻合，仅额外补充了金属钉固定细节，未改变核心信息。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: test caption明确提及“中国传统算盘”和“珠算”，与gold caption中算盘的文化属性一致，但gold未直接点明文化名称，故略有扣分。\ntotal: 背景和物体描述高度一致，文化信息补充合理，文本项缺失不影响整体，综合评分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 95\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述为昏暗灯光，test caption 还补充了灯光下突显历史感和工艺美的效果，语义高度一致。\nobject: 对象名称、外观、动作、位置及所有细节特征（莲花图案、边缘磨损、对称摆放等）完全匹配，仅表述略有差异。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均明确提及中国传统工艺风格，且通过莲花图案和古老气息体现文化内涵，高度一致。\ntotal: 对象和背景信息完整且高度吻合，文化维度准确传达，整体语义覆盖全面，动态加权后得分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain输出格式:\nbackground: 两者均明确描述为“真实照片”，语义完全一致。\nobject: 花瓶的外观、动作、位置等特征描述完全吻合，细节一致。\ntext: 双方均无引号内文本，故为0分。\nculture: 均提及景德镇、粉彩、开片等中国传统工艺元素，文化内涵一致。\ntotal: 各维度高度匹配，且文化及物体细节丰富，整体语义完全一致，故总分为满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 100\nculture_score: 100\ntotal_score: 93\n\nbackground: 两者均描述白色简洁背景，test caption 补充了饮料模糊细节，核心一致。\nobject: 月饼、坚果干果、木质圆盘、黄色饮料均匹配，test caption 对月饼颜色、花纹、夹心描述更详细，但整体覆盖度高。\ntext: 两者文本内容完全一致，均为“怀孕可以吃月饼吗宝妈们可要注意了”。\nculture: 两者均明确提及中秋节传统食品月饼，文化关联性一致。\ntotal: 各维度高度匹配，object 细节丰富但无冲突，text 和 culture 完全一致，综合评分高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 94\n\nexplain:\nbackground: 两者均明确描述为中国杭州西湖的夜景，深蓝色天幕，高度一致。\nobject: 湖水、灯光、古塔、树丛剪影等对象及其外观、动作、位置描述几乎完全对应，细节吻合。\ntext: 双方均无引号内文本，故为0分。\nculture: 均提及雷峰塔、西湖、古城韵味等文化元素，语义一致，仅表述详略略有差异。\ntotal: 因text为空不计入，背景、对象、文化均高度匹配，对象与背景权重较高，综合评分94。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 100\nculture_score: 90\ntotal_score: 94\n\nexplain:\nbackground: 两者均描述室内集体活动、装饰简朴的房间及白色金色菊花形纸花饰品，高度一致。\nobject: 人物数量、位置、动作、服装、年龄及房间地面、走道、光线等特征均匹配，仅细节表述略有差异。\ntext: 两者引号内文本完全一致，均为“松桃部分滕氏宗亲吊唁姚三老人”。\nculture: 均提及丧葬仪式、祭祀活动及纸钱等文化元素，test caption补充了更多解释，但核心文化内涵一致。\ntotal: 各维度高度吻合，text完全一致，object和background细节丰富且对应，culture理解深入，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain输出格式:\nbackground: 两者均描述为中国风水墨画背景，test caption 补充了山水、樱花、蝴蝶等细节，与 gold 高度一致。\nobject: 脸谱的主色调、白色曲线、红色涡卷、眉毛形状与装饰、眼睛、鼻子、嘴部及下巴颜色等特征均准确对应，仅个别描述略有扩展。\ntext: 两个 caption 中均无引号内文本，故为 0 分。\nculture: 两者均突出京剧脸谱与中国传统艺术特色，文化内涵表达一致，test caption 更具体地体现了传统韵味。\ntotal: 综合四项维度，object 和 background 信息量最大且匹配度高，culture 次之，text 为空不参与加权，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 85\ntotal_score: 92\n\nexplain:\nbackground: 测试描述与金标准完全一致，均提及略带黄色调的单一色彩背景及光线或纸张材质原因，仅表述略有扩展。\nobject: 测试准确描述了铁艺大雁塔的七层结构、檐角、尖顶、透空设计及背后真实剪影，与金标准高度吻合，但额外补充了“无显著前景对象”的说明，略有冗余。\ntext: 金标准与测试均无文本内容，故为0分。\nculture: 测试明确点出“西安大雁塔”及“中国传统建筑风格”，文化指向清晰，与金标准隐含的文化背景一致，但未额外强调铁艺工艺的文化象征。\ntotal: 综合四项，object和background为核心信息且高度匹配，culture为重要补充，text缺失不影响整体，故加权总分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 70\ntotal_score: 90\n\nexplain:\nbackground: 两者均描述淡雅米白色背景与金色绣线形成鲜明对比，内容高度一致。\nobject: 对象名称、外观、动作及位置描述基本吻合，test caption 额外补充了几何对称展开的细节，但核心信息一致。\ntext: 两个 caption 均无引号内文本，故为0分。\nculture: gold caption 未明确提及文化元素，test caption 补充了中国古典艺术风格，但 gold 中未体现，故评分较低。\ntotal: 综合考量 object 和 background 为主要信息载体，text 为空，culture 为附加信息，动态加权后总分反映整体高度匹配。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 94\n\nexplain:\nbackground: 两者均描述了宁静肃穆的佛教仪式氛围，语义高度一致。\nobject: 所有关键对象（和尚、佛坛、佛像、水果、瓷碗、花瓶、手部）及其外观、动作、位置均被准确覆盖，仅细节表述略有差异。\ntext: 两者均无引号内文本，故为0分。\nculture: 均体现了佛教仪式和供品的文化内涵，语义一致，仅表述详略不同。\ntotal: 对象和背景是核心内容，权重最高；文化内涵次之；文本为空不参与计算，综合评分94。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述了深褐色桌面、构图平衡、色彩和谐及传统手工艺魅力，test caption 补充了编织纹理细节，高度一致。\nobject: test caption 完整覆盖了竹篮大小、位置、盖子状态、水果种类、坚果、瓷器及花纹等所有关键特征，与 gold 几乎完全对应，仅个别描述顺序略有差异。\ntext: 两个 caption 的 text 字段均为空，因此评分为 0。\nculture: 两者均明确提及“中国特色”和“中国传统手工艺品”，文化内涵表达一致，test caption 未额外扩展文化背景，略有简略。\ntotal: 因 text 为空，总分主要基于 object 和 background 的高相似度，结合 culture 的较好匹配，动态加权后整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 100\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 测试描述与金标准在背景内容上高度一致，均提及宁静湖水和茂盛树木，氛围描述相同。\nobject: 对象描述几乎完全匹配，包括人物外貌、服饰细节、动作和位置，仅表述方式略有差异。\ntext: 测试描述完整提取了金标准中的引号文本，内容完全一致。\nculture: 两者均明确体现传统汉服、中式发簪等文化元素，文化内涵表达一致，仅金标准未单独强调文化属性。\ntotal: 各维度均高度匹配，其中对象和文本权重较高，综合评分反映整体caption质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain输出格式:\nbackground: 测试描述与金标准在背景描述上完全一致，均提及深色背景及神秘沉静的氛围。\nobject: 测试描述对器物的外观、位置、支撑结构等细节描述与金标准完全吻合，无遗漏或差异。\ntext: 金标准与测试描述中均无引号内文本，故该项评分为0。\nculture: 测试描述明确提及“中国古代的陶瓷器物”及“中国传统陶瓷的典雅与质朴”，文化内涵表达与金标准一致。\ntotal: 由于背景、物体和文化维度均完全匹配，且文本维度为空不参与加权，整体语义高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain输出格式:\nbackground: 两者均描述为简洁的室内环境，test caption补充了光线和色调细节，核心背景一致。\nobject: 三个对象（女孩、花瓶、樱花盆栽）及其外观、位置均完全对应，test caption额外描述了发型，但主体特征高度吻合。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确提及汉服、中国传统服饰及古典发型，文化元素一致且突出。\ntotal: 各维度语义重要性中，object和background为核心内容，culture为重要附加，text缺失，综合加权后总分为93。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 90\ntotal_score: 97\n\nexplain输出格式:\nbackground: 两者均明确描述为“真实照片”，背景信息完全一致。\nobject: 对剑的外观、材质、结构、功能及安全性等描述高度吻合，细节一一对应。\ntext: 双方均无引号内文本，故该项为0分。\nculture: 双方均提及中国结、太极剑等文化元素，test caption额外点明“中国传统武术文化特色”，语义一致且略有补充。\ntotal: 因text为空不计入，主要依据object和background的高匹配度，结合culture的轻微加分，综合给出97分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 100\nculture_score: 85\ntotal_score: 92\n\nexplain:\nbackground: 两者均描述了晴朗蓝色天空和白色云朵，内容完全一致，仅表述顺序略有不同。\nobject: 庙宇外观、牌匾、僧人外貌及动作均高度匹配，但test caption中僧人位置为“阶下站立”，而gold caption为“门前的石阶上，靠在墙边”，位置描述略有差异。\ntext: 两者均明确提及牌匾中间字为“玉”，内容完全一致。\nculture: 两者均体现了中国传统建筑风格和藏袍僧人元素，但test caption额外提到“庄严肃穆”和“传统文化韵味”，文化氛围描述更丰富。\ntotal: 各维度高度一致，仅object位置细节和culture表述略有差异，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 两者均描述了色彩鲜明、红色与深色对比、调料碟增添活跃气息及中国人对食物的讲究，语义高度一致。\nobject: 对象名称、外观、位置及细节描述完全吻合，仅个别措辞略有差异，信息覆盖全面。\ntext: 两个caption中均无引号内文本，故评分为0。\nculture: 两者均明确提及中国特色食品及中国人对食物的讲究和重视，文化内涵表达一致。\ntotal: 因object和background信息高度完整且为核心内容，culture作为补充，综合加权后整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 两者均描述为朦胧的中国风格木质门和墙面，颜色为深褐色，高度一致。\nobject: 对女士、婚纱、腰带、手饰、菊花的描述在颜色、设计、动作和位置等方面几乎完全吻合，细节丰富且对应准确。\ntext: 两个 caption 中均未包含引号内文本，因此该项评分为 0。\nculture: 两者均明确体现中国传统风格，如红色婚纱、花卉图案及菊花象征意义，文化元素表达一致且突出。\ntotal: 由于 object 和 background 高度匹配且为内容主体，culture 也紧密相关，text 为空不参与加权，综合评分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 70\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述了以白色和深色头发为主的色调，以及金属发簪和珠子的装饰，test caption额外补充了日系风格和整洁感受，但核心背景信息一致。\nobject: test caption完整覆盖了gold caption中女性、发簪、珠子的外观、动作和位置描述，包括丸子头、金属质地、珠子样式及排列位置，细节高度吻合。\ntext: 两个caption的text字段均为空，因此评分为0。\nculture: gold caption未明确提及文化元素，test caption提到了“日系风格”，虽非直接对应，但提供了文化相关线索，故给予中等偏上评分。\ntotal: 因object和background高度一致，text为空不参与加权，culture有轻微补充，整体语义匹配度极高，故总分为96。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均明确描述为“白色背景”，完全一致。\nobject: 对象描述高度吻合，包括服装颜色、图案、头饰、动作和姿态，仅个别细节表述略有差异，整体信息完整对应。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均体现中国古典舞蹈服装及古典之美，文化内涵一致，test caption额外强调了“飘逸与古典之美”，略有补充。\ntotal: 对象和背景信息高度一致，文化内涵匹配，文本为空不参与加权，综合评分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述为纯色灰白背景，完全一致。\nobject: 人物姿态、服装细节（酒红色丝绸长袍、金色边饰、花纹、皮鞋）均高度吻合，仅测试描述中补充了“表面略显光泽”等细微修饰，不影响核心一致性。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均明确指向中式传统礼服及其正式场合用途，文化内涵一致，测试描述额外强调了“传统与豪华气息”，略有丰富但未偏离。\ntotal: 综合四项，object和background高度匹配，culture一致，text不适用，故总分接近满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述为自然绿色背景，test caption 额外提及对比效果，核心一致。\nobject: 发髻、模特、装饰细节及位置描述高度吻合，test caption 补充了马尾设计，但主体信息完全对应。\ntext: 两者均无引号内文本，故为0分。\nculture: 均强调中式古装、古代发型及服饰特点，test caption 更明确点出“模拟古代中国发型”和“中国古代衣饰”，文化指向一致。\ntotal: 因 text 为空，总分主要基于 background、object、culture 三项，其中 object 信息最丰富且匹配度最高，故加权后总分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 85\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述墙面为浅灰色且表面略为不平，信息完全一致，仅表述略有差异。\nobject: 对旗袍和古典家具的外观、位置、装饰等细节描述高度吻合，几乎逐项对应，仅个别措辞不同。\ntext: 两个caption中均无引号内文本，故评分为0。\nculture: 旗袍作为中国传统服饰元素在两者中均明确体现，但test caption未额外扩展文化背景，故略低于满分。\ntotal: 整体语义高度一致，object和background占主导且几乎完全匹配，culture略有保留，综合评分96。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 100\nculture_score: 95\ntotal_score: 96\n\nbackground: 两者均描述夜空漆黑、烟花在黑暗中醒目，语义完全一致。\nobject: 烟花颜色、形状、位置，建筑顶部、塔楼及绿色灯光等细节均高度吻合，仅表述略有扩展。\ntext: 引号内文本完全一致，且均提及位于照片左上角。\nculture: 均提到中国结图案及与中国传统文化相关的场景，语义一致。\ntotal: 各维度高度匹配，text完全一致，object和culture细节丰富且对应，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nbackground: 测试描述与金标准高度一致，均提及背景模糊、树木轮廓及蓝天一角，仅细节表述略有差异。\nobject: 所有对象（石板路、长椅、建筑、佛塔、人）的外观、位置、动作均与金标准完全匹配，描述详尽且准确。\ntext: 金标准与测试描述中均无引号内文本，故得分为0。\nculture: 测试描述明确指出了西藏佛教寺庙的文化背景，并补充了行人代表居民或访客的解读，与金标准隐含的文化指向相符，且有所延伸。\ntotal: 对象和背景描述高度吻合，文化解读合理且自然，整体语义完整，动态加权后综合质量极高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 85\ntotal_score: 88\n\nexplain:\nbackground: 两者均描述了室内活动场景，包含气球、彩带、红色中国结、中国国旗和新年装饰，高度一致。\nobject: 对孩子的外观、动作和位置描述基本吻合，如红色外套、剪纸扇子、卡通鸡玩偶、汉服和黄色狗玩偶，仅细节略有增减。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均突出中国新年元素，如中国结、剪纸、汉服和生肖玩偶，文化内涵一致，但test caption未明确提及“中国新年”字样，略逊于gold。\ntotal: 综合四项，background和object高度匹配，culture基本一致，text不适用，故总分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 测试描述与金标准在背景信息上高度一致，均提及纯色背景、光线适中、暗背景突出皮影等细节，仅缺少“幽微之美”的少量修饰。\nobject: 测试描述完整覆盖了金标准中三个人物、皮影外观、动作、位置及附加信息，细节几乎完全对应，仅个别措辞略有差异。\ntext: 金标准与测试描述中均无引号内文本，因此该项评分为0。\nculture: 测试描述明确提及“中国传统皮影戏”和“中国民间艺术”，并补充了“中国文化中的传统艺术形式”，文化内涵表达充分，与金标准高度契合。\ntotal: 综合四项维度，object和background信息量最大且匹配度极高，culture维度也充分体现，text为空不参与加权，因此总分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 90\ntotal_score: 96\n\nbackground: 两者均描述“蓝天白云”，完全一致。\nobject: 所有对象（石碑坊、荷花池、花盆、石柱、树木）及其外观、位置、动作均高度吻合，仅个别细节描述略有详略差异。\ntext: 两者均包含“东方神园”，完全一致。\nculture: 两者均体现中国古典建筑风格和天坛公园的文化背景，test caption额外提及“布局对称”和“古典美”，文化内涵表达更丰富。\ntotal: 各维度均高度匹配，object和culture维度略有细微差异，但整体语义完整且一致，综合评分高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均描述食物摆放在淡棕色桌布上，局部有灰色条纹装饰，完全一致。\nobject: 四个对象的名称、外观、动作、位置及附加信息均与gold caption完全匹配，无遗漏或差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确提及中国特色美食（牛肉面、馒头、汤圆等），文化指向一致。\ntotal: 因background、object、culture三项均完全一致，且text为空不计入，整体语义高度吻合，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述为一致的淡棕色背景，完全一致。\nobject: 对两款旗袍的颜色、图案、装饰、长度、袖长等细节描述高度吻合，仅额外补充了立领、剪裁和模特姿势等细节，不影响核心对象特征。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确提及旗袍这一中国传统服饰，并体现了典雅与传统韵味，文化内涵一致，但test caption额外强调了立领和贴身剪裁的传统文化特征，略有加分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均明确描述为“真实照片”，背景信息完全一致。\nobject: 对转经轮的材质、结构、装饰、手柄及皮绳水晶等细节描述完全吻合，无遗漏或差异。\ntext: 两个caption中均无引号内文本，故该项评分为0。\nculture: 均提及中国传统文化、藏传佛教、转经轮象征意义及工艺精美，文化内涵表述一致。\ntotal: 因背景、物体、文化三项均完全匹配，且无文本内容，整体语义高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain:\nbackground: 测试描述与金标准在背景的光线、天空颜色、荒地状态及整体氛围上高度一致，仅个别措辞略有差异。\nobject: 城墙、城堡、望楼、荒地、围栏等对象的风格、颜色、结构、位置及纹理描述均与金标准匹配，细节覆盖全面。\ntext: 金标准与测试描述中均无引号内文本，故该项为0分。\nculture: 两者均明确体现中国古代建筑风格及历史荒凉感，文化元素表达一致。\ntotal: 综合四项维度，object和background信息量最大且匹配度高，culture次之，text无内容，故动态加权后总分为93。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 100\ntotal_score: 97\n\nexplain:\nbackground: 测试描述与金标准在背景上完全一致，均明确提及敦煌大漠、落日余晖、宁静壮观及西北风情和历史文化氛围。\nobject: 测试描述覆盖了金标准中所有对象（天空、沙丘、骆驼队），且特征描述（颜色、纹理、行为、剪影等）高度吻合，仅个别细节表述略有差异，因此评分较高。\ntext: 金标准和测试描述中均无引号内文本，故得分为0。\nculture: 测试描述明确包含“中国西北风情和历史文化氛围”，与金标准中的文化内涵完全对应，评分满分。\ntotal: 由于背景、对象和文化维度均高度匹配且语义重要性相当，文本维度为空不参与加权，综合评分接近满分，反映整体caption质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 100\ntotal_score: 98\n\nexplain:\nbackground: 两者均明确描述为“图像的样式是真实照片”，完全一致。\nobject: 对爵杯的外观、锈迹、三尖角、杯脚、铭文、弯曲柄部等描述高度吻合，仅test caption额外补充了“兽面纹饰”和“稳重而精致”等细节，未偏离原意。\ntext: 引号内提示文本完全一致，逐字匹配。\nculture: 两者均提及爵杯为古代青铜酒器、用于祭祀宴饮，以及兽面纹为商周典型特征，文化信息完全对应。\ntotal: 各维度高度一致，object仅因额外细节略有扩展而扣少量分，整体语义完整且准确，故综合评分接近满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 95\n\nbackground: 两者均描述了整体色调以黄色和黑色为主，煎饼与火焰细节清晰可见，高度一致。\nobject: 对象名称、外观、动作、位置等描述完全对应，包括煎饼、火焰、黑锅、戴手套的手和食物残渣，细节吻合。\ntext: 两个caption中均无引号内文本，因此得分为0。\nculture: 两个caption均未明确提及文化相关内容，因此得分为0。\ntotal: 由于text和culture维度为空，总分主要基于background和object的语义重要性加权，两者高度一致，故总分为95。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 80\ntotal_score: 93\n\nexplain:\nbackground: 两者均明确描述背景为白色，完全一致。\nobject: 算盘的外观、材质、结构、算杆数量及算珠颜色等核心特征描述高度吻合，仅缺少“动作”和“位置”信息，但原gold中这两项本就为空，故扣分极少。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: test caption明确提及“中国传统计算工具”和“中国传统文化韵味”，与gold中“算盘”隐含的文化属性相符，但gold未显式强调文化，故评分略低于object。\ntotal: 综合四项，object和background高度匹配，culture有一定体现，text不参与计算，整体语义还原度很高，故总分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 测试描述与金标准在背景上完全一致，均描绘了宁静夜晚、中国湖泊、传统建筑风格及天空渐变细节。\nobject: 所有对象（弧形木桥、黄灯笼、湖面倒影、中国亭子、树木）的名称、位置、外观及动作描述均与金标准逐项吻合，无遗漏或偏差。\ntext: 金标准与测试描述中均无引号内文本，故该项为0分。\nculture: 两者均明确体现中国传统建筑元素（亭子、灯笼、琉璃瓦），文化内涵表达一致。\ntotal: 因文本项为空且不参与加权，其余三项（背景、对象、文化）均完全匹配，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 70\ntotal_score: 88\n\nexplain输出格式:\nbackground: 背景描述完全一致，均提到杂乱露天储物区、杂物、日光和光影对比，仅缺少“日光明媚”的细节，故给95分。\nobject: 对象名称、位置、外观和行为均高度匹配，如爆炸点、鞭炮绳、鞭炮盒子及杂物，但test caption额外提及“砖红色墙壁”和“真实照片”风格，略有补充，故给90分。\ntext: 两个caption中均无引号内文本，因此text_score为0分。\nculture: test caption明确提到“中国传统过年习俗放鞭炮”，而gold caption未直接提及文化背景，仅通过鞭炮元素隐含，故给70分。\ntotal: 综合四项，object和background是核心内容且高度一致，culture为附加信息，text为空，动态加权后总分为88分。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均描述“具有中国特色的著名古建筑——十七孔桥的风貌”，语义完全一致。\nobject: 对十七孔桥、桥上人群、亭子、湖水的特征描述（外观、动作、位置）逐项对应，内容高度吻合。\ntext: 双方均无引号内文本，按规则计0分。\nculture: 均明确体现中国古典建筑文化特色，如“古色古香”“飞檐翘起”等，语义一致。\ntotal: 因背景、物体、文化三维度均完全匹配，且文本维度为空不参与加权，整体语义高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 100\nculture_score: 95\ntotal_score: 93\n\nbackground: 两者均描述了晴朗蓝天、无云及鲜艳色彩对比，内容完全一致。\nobject: 主要对象（左手、手表、故宫门、游客、匾额、透明胶带）及特征均匹配，仅细节描述略有详略差异。\ntext: 两者均包含“永远快乐”，完全一致。\nculture: 均涉及故宫、午门、琉璃瓦、匾额等中国传统文化元素，且描述相符。\ntotal: 各维度高度一致，object和background权重较高，综合评分反映整体匹配度优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 100\ntotal_score: 98\n\nexplain:\nbackground: 两者均描述黑色背景与红色礼盒形成鲜明对比，完全一致。\nobject: 对礼盒的外观、图案、装饰、位置等描述高度吻合，仅test caption额外提及“真实照片”风格，不影响核心对象特征。\ntext: 两者均包含相同文字“品质源于专注”，完全一致。\nculture: 两者均突出中国特色元素（红色、金色、莲花、中国结、流苏），文化内涵表达一致。\ntotal: 各维度高度匹配，object因风格补充略有差异，整体质量优秀，动态加权后得分98。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 70\ntotal_score: 92\n\nexplain:\nbackground: 两者均描述深蓝色背景与金黄色月亮的鲜明对比，高度一致。\nobject: 月亮和桂花枝条的外观、位置、动作描述完全匹配，仅“一枝”与“几枝”略有差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: test caption明确提及中秋节和传统节日意象，gold caption未直接提及，但桂花和月亮本身隐含中秋文化，部分相关。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 95\ntotal_score: 93\n\nexplain输出格式:\nbackground: 背景描述几乎完全一致，均描绘了中秋节家庭团聚、紫蓝色调、温馨祥和的氛围，仅缺少“数字艺术”风格说明，但核心背景信息高度吻合。\nobject: 对象名称、外观、动作、位置均匹配，包括三人服饰、满月、孔明灯、花朵和星星，仅test caption中未明确提及“五个小的”数量，但整体对象描述非常完整。\ntext: 两个caption中均无引号内文本，因此得分为0。\nculture: 文化元素（中秋节、赏月、家庭团聚、传统习俗）在两者中均充分体现，语义完全一致。\ntotal: 综合四项维度，background和culture高度一致，object略有细节差异，text为空不计入，整体质量优秀，动态加权后总分为93。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain输出格式:\nbackground: 背景描述高度一致，均提及高饱和色彩及其中国文化寓意，仅表述略有差异。\nobject: 对象、动作、外观和位置信息基本吻合，细节如人物服装、餐桌布置、食物种类均对应，仅个别描述顺序或措辞不同。\ntext: 两者均无引号内文本，故为0分。\nculture: 文化元素（旗袍、花边披肩、色彩寓意）完全对应，仅未明确点出“喜庆和好运”的关联，但整体文化内涵一致。\ntotal: 综合四项，object和background信息完整且高度匹配，culture也较准确，text无内容，故动态加权后总分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 94\n\nexplain:\nbackground: 测试描述与金标准在背景细节上高度一致，均涵盖城墙、石砖、瞭望塔、植被及色彩对比，仅增加少量补充说明。\nobject: 游客外貌、服装、动作及长城、山坡等对象特征均与金标准完全匹配，描述准确且一致。\ntext: 金标准与测试描述中均无引号内文本，故得分为0。\nculture: 测试描述明确提及长城作为中国历史遗迹和世界文化遗产，与金标准的历史意义表述相符，文化内涵表达充分。\ntotal: 综合四项维度，背景和对象信息完整且高度一致，文化维度表达充分，文本维度为空不参与加权，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain输出格式:\nbackground: 背景描述高度一致，均包含窗户、满月、云彩、红色与巧克力色主调及窗帘细节，仅缺少“构图温馨”的明确表述。\nobject: 对象及特征基本吻合，涵盖人物构成、餐桌布置、用餐工具、窗户、窗帘、月亮和云彩，仅个别细节如“切片食物”描述略有简化。\ntext: 双方均无引号内文本，故评分为0。\nculture: 均明确体现中秋节家庭团聚氛围，并包含中国传统花卉纹路窗帘等文化元素，文化内涵表达一致。\ntotal: 整体语义高度匹配，背景和对象维度几乎完全对应，文化维度准确传达节日氛围，仅因文本缺失和个别细节简化，综合评分93。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 0\ntotal_score: 97\n\nexplain输出格式:\nbackground: 两者均描述为真实照片风格，完全一致。\nobject: 对象外观、材质、功能描述高度吻合，仅缺少“无”位置信息，但内容基本一致。\ntext: 引号内文本完全一致，且均明确标注压力范围。\nculture: 双方均无文化相关内容，故评分为0。\ntotal: 整体语义高度匹配，背景、文本完全一致，对象细节略有省略，文化项不适用，综合加权后得分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain:\nbackground: 测试描述与金标准在背景元素（月亮、夜空、建筑、灯笼）及位置关系上高度一致，仅增加了“真实照片”和“可能位于天坛”的推测性描述，不影响核心背景信息。\nobject: 对象名称、外观、位置、颜色均与金标准匹配，且额外补充了螭龙雕像的细节（如表情、龙角、尾部），描述更丰富，但未偏离原意，相似度极高。\ntext: 金标准与测试描述中均无引号内文本，故得分为0。\nculture: 测试描述明确提及“丰富中国文化元素”、“庄严肃穆”、“中国传统文化气息”，并推测为天坛，与金标准中建筑、螭龙、灯笼等隐含的文化内涵高度契合，文化指向一致且更显性。\ntotal: 综合四项维度，背景和对象为描述主体，权重最高；文化维度作为重要补充，权重次之；文本为空不计入。整体语义覆盖全面，细节丰富且无冲突，故总分为93。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 100\nculture_score: 90\ntotal_score: 94\n\nexplain:\nbackground: 两者均描述为室内医疗实践教室或相关场所，环境简单专业，具有医疗培训配置，高度一致。\nobject: 中医师、患者、观察者、文件笔、窗帘、窗户、天空等对象及其外观、动作、位置描述基本吻合，仅个别细节如“双手放在患者背部”为补充，整体相似度极高。\ntext: 引号内文本完全一致，均准确提取了竞赛标题文字，相似度满分。\nculture: 两者均体现了中医推拿技术、医疗培训竞赛及浙江省中医药适宜技术竞赛的文化背景，语义一致，仅test caption额外强调了竞赛宗旨和氛围，略有丰富。\ntotal: 综合四项维度，object和background为图像核心内容，权重较高；text和culture为辅助信息，但均高度匹配，整体质量优秀，动态加权得分为94。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain输出格式:\nbackground: 测试描述与金标准高度一致，均提及天空和稀疏树木，且补充了灰色天空和朦胧感，未改变核心背景。\nobject: 测试描述对湖面、石桥、亭屋、树木等对象的特征（颜色、位置、形状、风格）几乎完全匹配金标准，细节丰富且无遗漏。\ntext: 金标准和测试描述均无引号内文本，故评分为0。\nculture: 测试描述明确提及“中国传统建筑风格”、“歇山顶”、“黑色琉璃瓦”和“江南水乡风貌”，与金标准文化元素高度吻合，仅额外补充了屋顶细节。\ntotal: 整体语义高度一致，对象和背景描述精准，文化元素丰富，仅因文本缺失和背景细微扩展略有扣分，综合质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 100\nculture_score: 95\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述深棕色带金色古典图案的墙面，高度一致。\nobject: 雕塑主体、八臂法器、莲花座、云纹、基座、服饰、冠冕等细节完全对应，仅个别描述顺序和措辞略有差异。\ntext: 引号内文本完全一致，均为“道教元君，中国铜雕艺术收藏”。\nculture: 均明确指向道教斗姆元君及中国铜雕艺术，文化内涵表达一致。\ntotal: 各维度高度吻合，object 和 text 权重最高，综合评分优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 0\nculture_score: 90\ntotal_score: 93\n\nexplain:\nbackground: 两者均描述淡灰色背景及突出色彩鲜明的形象，test caption 完全覆盖 gold 内容，仅增加“整体看来”等总结，高度一致。\nobject: 对左右工艺品的描述在名称、外观、动作、位置及特殊细节上几乎完全对应，test caption 补充了“宝玉和黛玉初会”及“书籍作为媒介”等细节，但核心特征一致。\ntext: gold caption 和 test caption 中均无引号内文本，故为0分。\nculture: gold caption 未明确提及文化背景，但 test caption 明确指出“红楼梦”及“中国传统文化特色”，虽为补充，但符合图像内容，且与 gold 隐含的文化语境一致，故给予较高分。\ntotal: 因 text 为空不计入，object 和 background 高度匹配，culture 有合理补充，综合语义重要性（object 权重最高，background 次之，culture 再次）动态加权得分为93。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 两者均描述上半部分深蓝色夜空、下半部分金黄色月亮地面，完全一致。\nobject: 天灯、兔子、篮子的外观、动作、位置及细节描述完全吻合，无差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确体现中秋节元素（天灯、月饼、兔子、传统花纹），文化内涵一致。\ntotal: 背景、物体、文化三项均完全匹配，且文化元素贯穿整体，综合质量极高，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nexplain:\nbackground: 两者均描述了木质栏杆露天平台、远处建筑群和茂密树木、光线充足天气晴朗，高度一致。\nobject: 所有对象（人物、棋盘、棋子）及其外观、动作、位置均与gold caption完全对应，仅个别描述略有简化或补充，几乎完全匹配。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两个caption均未涉及特定文化元素，故为0分。\ntotal: 对象和背景描述高度吻合，且对象细节丰富、准确，整体语义覆盖全面，故综合评分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 95\ntext_score: 100\nculture_score: 90\ntotal_score: 95\n\nexplain:\nbackground: 两者均描述了户外石头地面、树木灌木、池塘栏杆及阳光照射的明亮蓝色与白色，高度一致。\nobject: 青花瓷家具的组成、装饰图案、位置及池塘的平静与反射均完全匹配，细节覆盖全面。\ntext: 引号内文本“路在脚下”完全一致，且均提及白色汉字及悬挂位置。\nculture: 双方均明确点出“中国特色”和“中国传统青花瓷”，文化指向一致，但test caption更显性化。\ntotal: 各维度高度吻合，object与background权重最高且均接近满分，text完全一致，culture略有显性差异但无实质冲突，整体质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 100\ntotal_score: 97\n\nexplain:\nbackground: 两者均明确描述背景为深色调，且与铜色摆件形成对比，完全一致。\nobject: 铜质摆件、八仙人物、纹路等对象的外观、动作、位置描述高度吻合，仅测试描述额外补充了底部平整等细节，不影响核心相似度。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均明确提及中国传统文化中的八仙过海场景，文化内涵一致。\ntotal: 综合四项维度，背景、文化完全一致，对象描述高度匹配，文本为空不参与加权，整体语义还原度极高，故总分接近满分。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 92\ntext_score: 100\nculture_score: 95\ntotal_score: 94\n\nexplain:\nbackground: 两者均描述了数字艺术风格、中国新年氛围及红色横幅与金色汉字装饰，高度一致。\nobject: 对象种类、外观、动作及场景分布基本吻合，仅个别细节如“五个家庭成员”与“一家六口”略有出入，整体相似度高。\ntext: 两者均包含“团圆”、“福气”、“团团圆圆”，完全一致。\nculture: 均突出春节家庭团聚、红色装饰、灯笼、烟花、团圆饭等典型文化元素，契合度高。\ntotal: 各维度均高度匹配，object略有细节差异，综合加权后整体质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 90\ntotal_score: 96\n\nbackground: 两者均描述为户外活动、传统中国建筑风格院落、灰白砖墙与绿植，完全一致。\nobject: 所有对象（观众、演讲者、格子衫人、门楼、树木天空）的外观、动作、位置均匹配，仅个别细节描述略有详略差异。\ntext: 两者均包含“乌镇戏剧节侧”，完全一致。\nculture: 均体现传统建筑与戏剧节文化氛围，test 额外点明“文化或戏剧活动”，与 gold 隐含信息一致，略有补充但无冲突。\ntotal: 各维度高度一致，object 因细节微差略扣分，其余满分，综合加权后整体质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述了简约背景和银色发簪作为焦点，test caption 与 gold caption 高度一致，仅细节表述略有差异。\nobject: test caption 完整覆盖了 gold caption 中所有对象特征，包括外观、结构、细节、装饰和位置，描述几乎逐句对应，仅个别措辞不同。\ntext: 两者 text 均为空，因此评分为 0。\nculture: 两者均明确提及“中国传统特色”和“传统韵味”，文化内涵表达一致，test caption 未额外扩展文化背景。\ntotal: 对象描述是核心内容，占比最高，背景和文化次之，text 为空不计入，综合加权后得分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 100\nculture_score: 95\ntotal_score: 97\n\nbackground: 两者均描述了中国村庄院落、阳光明媚、传统建筑及静谧悠闲的氛围，高度一致。\nobject: 所有对象（男性、木柱、晾衣绳、女性、建筑）的外观、动作、位置均完全匹配，仅细节表述略有差异。\ntext: 两者均包含“新城镇”文本，完全一致。\nculture: 均突出中国传统建筑风格、红色中国结等文化元素，描述一致。\ntotal: 各维度高度吻合，object和text完全一致，background和culture略有细微差异但整体语义相同，综合评分高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nexplain:\nbackground: 两者均描述“皎洁的月光下的江南园林风光”，语义完全一致。\nobject: 垂柳、满月、江南式建筑及其外观、位置、细节描述均高度吻合，无差异。\ntext: 双方均无引号内文本，按规则计0分。\nculture: 均体现江南园林、古典建筑等文化元素，内容一致。\ntotal: 四项核心维度（除text外）完全匹配，整体语义一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述了真实照片风格、微弱光线从左侧射来、温暖映衬及下方红色织物，高度一致。\nobject: 对头饰主体、金属丝花纹、珍珠宝石、两侧固定装置及黑色串珠等细节描述几乎完全吻合，仅个别措辞略有差异。\ntext: 两个caption中均无引号内文本，故为0分。\nculture: 两者均提及中国传统头饰及汉服文化，但test caption额外强调了“古典韵味”和“深厚底蕴”，文化内涵表达更丰富，略有加分。\ntotal: 因object和background高度匹配，且culture表达充分，text为空不参与加权，综合评分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nbackground: 两者均描述为真实照片风格，且对红色主基调、色彩层次和视觉冲击力的描述完全一致，仅细节表述略有差异。\nobject: 所有对象（丹霞地貌、山峰、绿色植被、平坦地面、黑色公路）的名称、位置、外观、动作及特征均高度吻合，仅个别描述顺序和措辞略有不同。\ntext: 两个caption中均无引号内文本，故评分为0。\nculture: 两个caption中均未涉及文化相关内容，故评分为0。\ntotal: 由于text和culture维度均为空，总分主要基于object和background的语义一致性，两者高度匹配，故综合评分较高。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 100\ntotal_score: 97\n\nexplain:\nbackground: 两者均明确描述为北京天安门广场、蓝天背景，完全一致。\nobject: 所有对象（花坛、喷泉、人行道、游客、广场地面、天安门城楼、紫禁城建筑）及其外观、动作、位置均高度吻合，仅test caption额外提及拍摄角度和照片风格，不影响核心对象描述。\ntext: 两者均无引号内文本，故为0分。\nculture: 两者均突出天安门城楼、中国国旗、紫禁城等中国文化元素，且test caption结尾明确点出“浓厚的中国特色”，与gold caption文化内涵完全一致。\ntotal: 因object和background高度匹配且为描述主体，culture作为点睛之笔，综合加权后给出97分，反映整体caption质量极佳。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 100\ntext_score: 0\nculture_score: 100\ntotal_score: 100\n\nbackground: 测试描述与金标准在背景上完全一致，均提及湛蓝天空、藏式风情及西藏建筑艺术与自然风光。\nobject: 测试描述逐一覆盖了金标准中的所有对象（布达拉宫、阶梯、山脚建筑、栏杆、佛塔），且外观、位置、动作等特征描述完全吻合。\ntext: 金标准与测试描述中均无引号内文本，故该项评分为0。\nculture: 两者均明确强调西藏地区、藏式风情、建筑艺术等文化元素，内容完全一致。\ntotal: 因背景、对象、文化三项均完全匹配，且无文本内容，整体语义高度一致，故总分为100。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 0\ntotal_score: 97\n\nbackground: 两者均明确描述为“白色背景”，完全一致。\nobject: 对两束花的位置、大小、颜色构成、装饰细节及差异描述高度吻合，仅额外补充了“仿真”和“纹理色泽”等细节，不影响核心信息。\ntext: 双方均无引号内文本，故为0分。\nculture: gold caption未涉及任何文化元素，test caption虽提及清明节文化，但该维度在gold中缺失，无法对应评分，故为0分。\ntotal: 背景和物体描述高度一致，且物体为内容主体，权重最高；文本和文化维度因gold缺失不计入，综合评分97。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 0\nculture_score: 100\ntotal_score: 97\n\nbackground: 两者均明确描述为“南京夫子庙秦淮河畔”，完全一致。\nobject: 所有对象（河流、房屋、岸边、船、天空）及其特征（颜色、风格、状态等）均高度匹配，仅个别细节如“几只小船”与“船”略有泛化差异。\ntext: 双方均无引号内文本，故为0分。\nculture: 两者均体现中国传统建筑、灯笼彩旗及秦淮河文化背景，完全一致。\ntotal: 背景和文化维度完全一致，对象维度高度吻合，文本维度不适用，综合加权后整体质量优秀。"
+    },
+    {
+        "response": "background_score: 100\nobject_score: 95\ntext_score: 100\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均明确描述为“夜晚的天空”，完全一致。\nobject: 对象名称、位置、大小、颜色及装饰线条均完全匹配，仅测试描述中额外添加了“真实照片”和“动感视觉效果”等修饰，不影响核心信息。\ntext: 引号内文本完全一致，均为“力喜迎多地春节灯光秀点亮牛年新春”。\nculture: 两者均涉及春节灯光秀这一文化主题，测试描述中明确提及“春节灯光秀”，与金标一致，但未额外扩展其他文化元素，故略低于满分。\ntotal: 四项维度中，object和background为描述主体，text为关键信息，culture为背景主题，综合语义重要性加权后，整体高度吻合，故总分较高。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 测试描述与金标准在室内环境、浅色装潢、植物、沙发、抽象画、咖啡桌及地毯等细节上高度一致，仅缺少“温馨、优雅”氛围的明确总结，但整体背景还原度极高。\nobject: 测试描述对女性、旗袍、手提包、植物、沙发、抽象画、咖啡桌及小物品的外观、动作、位置均进行了详细且准确的描述，与金标准几乎完全吻合，仅个别措辞略有差异。\ntext: 金标准和测试描述中均未包含引号内文本，因此该项评分为0。\nculture: 测试描述明确提及“中国传统服饰——旗袍”及“传统的中式盘扣”，与金标准中的文化元素完全对应，文化内涵表达充分。\ntotal: 由于object和background维度信息丰富且高度匹配，culture维度也准确体现，而text为空，故动态加权后总分较高，综合反映整体caption质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 两者均描述了传统中式房间、木质长桌、茶具、书架及挂画等背景元素，细节高度一致，仅表述略有差异。\nobject: 对女性旗袍的穿着、颜色、设计、动作及位置描述完全吻合，茶具、茶壶、书架和挂画的细节也几乎一一对应，仅个别措辞不同。\ntext: 两个 caption 中均未包含引号内文本，故该项评分为0。\nculture: 两者均体现了中国旗袍、茶文化、中式挂画及书法牌匾等文化元素，文化内涵表达一致，仅test caption额外提及“中国茶文化”和“书卷气息”，略有补充。\ntotal: 因object和background信息完整且高度匹配，文化元素也充分体现，text为空不参与加权，故综合评分较高，反映整体caption质量优秀。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 98\ntext_score: 0\nculture_score: 90\ntotal_score: 96\n\nexplain:\nbackground: 测试描述与金标准在背景细节上高度一致，均提及室内环境、木制屏风、米色地面及白色圆形物品，仅额外补充了整体色调氛围。\nobject: 对象的外观、材质、动作及位置描述几乎完全匹配，包括狮子表情、红宝石眼睛、金色装饰、铜铃、底座等细节，仅增加“真实照片”风格说明。\ntext: 金标准与测试描述中均无引号内文本，故评分为0。\nculture: 测试描述额外明确指出了“中国传统文化中常见的宫门狮”及“招财进宝”的文化寓意，金标准虽未直接提及但隐含文化属性，故评分较高。\ntotal: 对象描述最为详尽且完全匹配，背景高度一致，文化补充合理，文本维度缺失不影响整体，综合加权后总分为96。"
+    },
+    {
+        "response": "background_score: 95\nobject_score: 90\ntext_score: 0\nculture_score: 70\ntotal_score: 88\n\nexplain:\nbackground: 两者均描述了树木、蓝天和公园/绿色空间，test caption 补充了牌匾细节，但核心背景一致。\nobject: 对象、外观、动作和位置高度匹配，test caption 增加了人数和照片数量等细节，但未偏离 gold 内容。\ntext: 两个 caption 均无引号内文本，故为 0 分。\nculture: gold 未明确提及文化元素，test caption 通过“庄严和纪念的气氛”隐含文化内涵，但缺乏具体文化指涉，评分较低。\ntotal: 综合四项，object 和 background 为主要信息载体，权重最高；text 为空不参与；culture 仅隐含，故总分略低于 object 和 background 的均值。"
+    }
+]

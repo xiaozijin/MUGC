@@ -1,0 +1,603 @@
+[
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_124_0b51e5ede9a994672d876e4ee722ed7b.jpg",
+        "caption": 
+            "图像由三张不同菜肴的照片组成。第一张图片展示了一块烤肉，上面覆盖着酱汁和蔬菜，放在一个白色盘子上。第二张图片显示了一碗汤，里面含有面条、绿叶蔬菜和一些其他食材，盛在另一个白色的盘子里。第三张图片展示了用筷子夹起的一小份面条，旁边放着一碗汤，这道菜看起来是中餐的一部分。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_124_b6bdf34e90359d77bc4c53448279cfa0.jpg",
+        "caption": 
+            "图像中展示了一个装满美味汤的白色碗，配有蓝色边框。这道菜看起来是豆腐和蔬菜混合而成，可能还加入了辣椒酱或番茄酱作为调味料。碗放在木桌上，旁边放着一把勺子，暗示它准备好了可以食用了。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_149_81fa6cfcf68fa3df35cca673e1e58406.jpg",
+        "caption": 
+            "图像中展示了一只烤制的火鸡，其表面呈现出棕色且略带焦糖化。火鸡被切成两半，以便于食用和烹饪。它位于白色背景上，突出了它的颜色和形状。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_096_b5074260fde8ec3e23c3b8e94c329050.jpg",
+        "caption": 
+            "这张图片展示了一幅中国画，画面中有一只鸟。这是一张黑白相间的画作，使用了墨水和毛笔进行绘制。画中的鸟被描绘成一只黑色的鸟，它的头部和颈部是深色的，而身体则呈浅灰色。这只鸟似乎在飞翔或栖息在树枝上。背景是白色的纸张，为画面增添了对比效果。图像右下角有一个小标签，上面写着“ Baiyu 2013 jinyan.baidu.com”。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_113_0c4aab03fdcad6e05039ef3662fdb5ce.jpg",
+        "caption": 
+            "图像中展示了一盘烤肉串，这些肉串被放在绿色的生菜叶上。每根肉串都用金属叉子固定在一根细长的银色杆子上。肉串看起来非常诱人且新鲜，表面覆盖着一层焦糖化的酱料或香料，使其呈现出诱人的棕色和光泽。这道菜似乎是在一个白色背景前拍摄的，突出了食物的颜色和质感。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_088_0392973814d90bd2790b3886436ff0ee.jpg",
+        "caption": 
+            "图像中展示了一件精美的金色和蓝色装饰品，置于红色背景前。这件物品似乎是一件古董或艺术品，顶部有一个手持宝物的雕像，周围环绕着复杂的图案设计。底部部分则有精细的雕刻细节，使其呈现出华丽而精致的外观。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_088_d7d34da83cc0aa8b6475a98796989394.jpg",
+        "caption": 
+            "这是一道汤，里面含有肉、蔬菜和香草。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_096_fb67392c128e6c9b1a849afd6d7df3da.jpg",
+        "caption": 
+            "图像中展示了一个黑色的方形盘子，里面装有多个小块状的白色糕点。这些糕点看起来质地柔软且均匀分布在整个盘子里。它们被整齐地排列着，没有重叠或空隙。背景是纯白色，这使得糕点在黑色盘子上的对比更加突出。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_033_1910efe1221d9297d2d7c137f7d8d5ff.jpg",
+        "caption": 
+            "图像中有一只白色兔子坐在黄色圆圈上，周围环绕着绿色叶子和蓝色线条。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_083_2bae2b936c08873a83c7579ef6b965af.jpg",
+        "caption": 
+            "一碗汤里有肉、蔬菜和面条，看起来非常美味。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/08_taisu_images_folder_005_35e34f28f5bc5c53d5bccae1d2b93ee5.jpg",
+        "caption": 
+            "图像中展示了一组大型的红白相间的花灯，这些花灯被点亮了。它们排列在树旁的地面上，形成一个美丽的图案。一些花灯是红色和白色的，而另一些则有绿色、黄色和紫色的点缀。花灯看起来非常引人注目，并且照亮了周围的环境。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/03_taisu_images_folder_064_a93a13cf4d925609ca8196fdb2c20457.jpg",
+        "caption": 
+            "盘子里有一大堆煮熟的虾，上面铺着葱花。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/03_taisu_images_folder_064_5164a1f7be39cc7c6484d8db13c27f2f.jpg",
+        "caption": 
+            "一只小熊雕像被一只手拿着，背景为黑色。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/03_taisu_images_folder_081_1692c246db3c4f525681f501b8019d5e.jpg",
+        "caption": 
+            "图像描绘了一个夜晚的场景，天空中挂着一轮明亮的满月。画面中央有一只白色兔子坐在一个圆形木桌上，桌子边缘放着一块黄色糕点。两只兔子似乎在观察周围的环境或等待某人到来。背景中有几只灯笼高高飞翔，增添了节日的氛围。画面下方有文字“中国农历：春节”和“传统习俗”，表明这幅画可能与中国的春节文化有关。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/03_taisu_images_folder_064_54125ed5ecfd93fc207fa3965bff45db.jpg",
+        "caption": 
+            "图像中展示了一幅红色的窗帘，上面装饰有蕾丝和蝴蝶结。窗帘挂在白色门上，门框内有一扇窗户。窗帘下方有一个金色把手。背景墙上挂着一幅粉色花朵图案的画作。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/03_taisu_images_folder_064_7ff1bce19f57e4572c763e731cf3c33c.jpg",
+        "caption": 
+            "图像中展示了一套精美的茶具，包括一个大碗、两个杯子和三个小碗。这些陶瓷制品上装饰有蓝色的花卉图案，营造出优雅而精致的外观。每个物品都精心设计，以适应不同的用途，并且在整体布局中和谐地排列在一起。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/03_taisu_images_folder_064_ff0a7cd03085e0115c22655133bfdbdb.jpg",
+        "caption": 
+            "图像中展示了一块白色盘子，盘子里放着一个装有黄色果冻的碗。碗里还有一颗红色的樱桃作为装饰。背景模糊不清，但可以看到一些苹果和橙子。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/06_taisu_images_folder_058_2385a29af142c0935fab703a5cd0cc02.jpg",
+        "caption": 
+            "一个女孩站在墓碑前，手里拿着一束花。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/09_taisu_images_folder_083_ecd6aa946852ff12d64d68f11f54e3f1.jpg",
+        "caption": 
+            "图像中展示了一幅夜晚的烟花表演场景，天空被五彩斑斓的烟花照亮。烟花以各种颜色如粉红色、紫色和绿色绽放，形成多样的形状和图案。有些烟花呈圆形或星状，而另一些则呈现出更复杂的结构。烟花在空中高高飞起，有的靠近地面，有的则悬挂在高空。背景是深蓝色的夜空，为明亮的烟花提供了对比。整体画面充满了节日气氛和欢乐情绪。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/09_taisu_images_folder_102_bb7a029a2ef552a9ad1b13099665fe7c.jpg",
+        "caption": 
+            "图像描绘了一家人围坐在餐桌旁共进晚餐的情景。餐桌上摆满了各种食物，包括米饭、蔬菜和水果等。画面中可以看到四个人：一位老人坐在椅子上，旁边是一位年轻人；另一位是孩子，还有一位女性站在桌子右侧。他们似乎正在享受这顿饭，并进行交谈。背景中有一张沙发，为家庭提供了一个舒适的座位区。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_149_b23f86bfb05151ac07f7c5b99e0b8f54.jpg",
+        "caption": 
+            "图像中展示了一套茶具，包括一个大碗、多个杯子和一个壶。这些物品被放置在木质表面上，并且有一个棕色的垫子覆盖着桌子。此外，还有一些勺子放在旁边的一个小容器里。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_149_2eff35851774db53da87ece54dbea403.jpg",
+        "caption": 
+            "图片中有一位美丽的亚洲女性，她穿着华丽的服装和珠宝首饰。她的头发被精心地编成一个高高的髻，并且戴着耳环和项链。这位女士面带微笑，显得非常自信和优雅。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_149_a5f42968de39f21f886758c5a2ab804e.jpg",
+        "caption": 
+            "图像中展示了一张白色盘子，上面放着两块鱼肉。这些鱼肉被红色的酱料覆盖，并且看起来像是用辣椒制成的。背景是黑色的布料，这可能表明这是一个食物展示或烹饪场景。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_149_df0b74231eda1ecede7a370f10394404.jpg",
+        "caption": 
+            "图像描绘了一位穿着华丽服饰的亚洲人物，周围环绕着云朵和装饰性的线条。这位人物似乎是一位神祇或神话角色，手持宝剑并佩戴王冠。背景中可以看到一些云朵，增添了神秘感。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_149_23f5db07295dd9bef00d2e5bdc8c4574.jpg",
+        "caption": 
+            "这是一张展示各种食物的图片，包括一碗汤、一个装有面条的碗和一些其他菜肴。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_149_3b6688dd6594ae4e48f7316f7f27943b.jpg",
+        "caption": 
+            "图像中展示了一块精美的玉雕，中心有一个圆形的孔洞。这块玉雕由多个复杂的图案组成，包括各种动物和花卉等元素。这些图案以流畅的曲线和优雅的姿态呈现出来，展现了高超的手工艺水平。整体设计呈现出一种和谐与平衡的感觉，使其成为一件令人赏心悦目的艺术品。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_135_16ce952f16c85a2fb4806f64e3fede25.jpg",
+        "caption": 
+            "图像中展示了一座大型石雕，位于建筑物前。雕像由黑色石材制成，顶部装饰有狮子和鹿的浮雕。雕像下方有一个圆形凹槽，里面雕刻着一只鸟。背景是一扇红色门，门上镶嵌着金色边框，并且门上方挂着一个金色灯笼。左侧有一盆绿色植物，为场景增添了一抹自然气息。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_135_6ce0b57e30c5089875081d9948c07e42.jpg",
+        "caption": 
+            "一位穿着传统中国服饰的女性站在黑色背景前，展示她的服装。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_135_06eefe855d15c904731ffa84702fb63e.jpg",
+        "caption": 
+            "图像中展示了一盘美味的菜肴，主要由豆腐组成。这些豆腐被切片并均匀地分布在黑色的碗里，呈现出诱人的橙色和棕色色调。在豆腐上点缀着几根绿色的葱条，为这道菜增添了一抹清新与色彩对比。此外，还有一小撮新鲜的香草作为装饰，进一步提升了整体视觉效果。这道菜看起来非常诱人且营养丰富，适合各种口味的人享用。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_135_3c646d16706a2cdc62e0715d9db77d4f.jpg",
+        "caption": 
+            "图像中展示了一座古老的中国建筑，屋顶覆盖着灰色的瓦片。建筑物顶部有一个黑色的网状结构，可能是为了保护或装饰目的。背景中的天空显得有些阴沉，增加了整体氛围的神秘感。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_124_64aa340bd4cf823626f45fa666fa733e.jpg",
+        "caption": 
+            "图像描绘了三个角色，一个穿着黑色衣服的男子站在中间，另一个穿着黄色和蓝色服装的人在左侧，第三个则位于右侧。他们似乎正在参与一项活动或仪式。背景中有一只大型动物，可能是牛，占据了画面的大部。画面边缘有一个红色的标志，上面有绿色的文字。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_124_ef5f455135208047fe98d8773021dcdd.jpg",
+        "caption": 
+            "图像中展示了一群人聚集在户外，周围是山丘和树木。他们似乎正在观看一场活动或表演。人群中有许多人手持手机，可能是在记录这一刻。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_113_9dc08a9aec8c4524a25f41ae4c2ecce1.jpg",
+        "caption": 
+            "穿着蓝色长袍的男子站在棕色背景前。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_113_1fe8032fbcfb93b7fe9488caab8f5051.jpg",
+        "caption": 
+            "图像中展示了一把精美的羽毛扇，其设计灵感来源于孔雀的尾羽。扇子上装饰着色彩斑斓、排列有序的孔雀羽毛，呈现出丰富的紫色、蓝色和绿色调。扇柄由黑色金属制成，并配有金色装饰，使其在白色背景前显得格外突出。\n\n除了羽毛扇之外，场景中还摆放了几件其他物品。左侧有一盆植物，右侧则放着两本书，一本黄色封面，另一本未见内容。此外，画面中央还放置了一个小型雕像，为整体布置增添了一份艺术气息。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_113_e75a95a27e5282d01c90cb4d0f9f317c.jpg",
+        "caption": 
+            "图片中展示的是两位穿着传统中国服装的儿童，他们面向相机站立。其中一位穿着白色长袍和黑色背心，另一位则穿着白色长裤和红色背心。背景中有粉红色花朵的装饰，以及一个小型中国扇子放在画面底部左侧。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_1feeca843fba79e77bb87cb00d6b16b7.jpg",
+        "caption": 
+            "图片展示了一位女士穿着长裙的前后两幅照片。她佩戴着蓝色头饰，裙子上绣有金色图案，并配有黑色和蓝色的渐变设计。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_dd2224489a245b547e752bc31ca7aa76.jpg",
+        "caption": 
+            "一碗汤放在木桌上，里面含有鸡肉、蘑菇和香菜。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_fd62f6d37c9847d20187942bca43dd48.jpg",
+        "caption": 
+            "图像中展示了一碗装有各种食材的中式菜肴，包括胡萝卜、洋葱和肉块。这道菜放在一个木质碗里，并配有酱料淋在上面。背景中有紫色花瓣，增添了整体美感。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_10d2374ebf8d29086bcf5f83015c2597.jpg",
+        "caption": 
+            "图像中展示了一个白色陶瓷蛋，上面绘有风景画。画面描绘了一座小桥、几棵树和一座房屋，营造出宁静的氛围。蛋放在一个木质托盘上，托盘放置在木桌上。背景中可以看到一些书籍和一个棕色的物体，可能是装饰品或文具。整体场景显得优雅而精致，适合作为家居装饰品使用。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_15d5ca4c70b50d4cfc1b56db861201e8.jpg",
+        "caption": 
+            "图像描绘了一只长着角的动物，可能是犀牛或大象，在一棵大树下行走。这棵树占据了画面的大部，枝叶繁茂，树叶呈深绿色。背景中有一片草地，地面铺满了落叶和树枝。整体色调为棕色和灰色，营造出一种古朴而自然的氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_e91eecdcb986dfd554bffa72c889462f.jpg",
+        "caption": 
+            "图片中展示了一个白色石雕，形状类似椭圆形。雕刻的图案描绘了一位人物，可能是佛教中的菩萨或佛陀形象，周围环绕着各种符号和装饰元素。这种艺术作品可能具有宗教、文化或历史意义。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_18a659f7ba8e120aa9b4ccd9a6e6d6ad.jpg",
+        "caption": 
+            "一位穿着粉红色连衣裙的女性站在黑色背景前摆姿势。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_105_579ad2c76d0bed0196e78bd05c3e88fa.jpg",
+        "caption": 
+            "图像中展示了一条河，河上漂浮着几艘小船。这些船只被红色灯笼装饰，并且有桨在水中划行。背景中有许多房屋，屋顶是灰色的，有些窗户上有红色的装饰。画面左侧可以看到一棵高大的树。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_096_beb635abc8b83e53e50dca83ebfedb9d.jpg",
+        "caption": 
+            "图像中展示了一个装有汤的陶锅，置于炉子上。汤里含有肉块和蔬菜，表明这是一道美味的炖菜。汤勺插在汤中，准备舀取食物。背景中可以看到一个杯子和碗，暗示这是一个用餐场景。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_088_bbee61bb05c01936651cbfbe795e2e1e.jpg",
+        "caption": 
+            "这是一张展示了一道美味的鱼肉菜肴的照片，盘中摆放着多片鱼肉，每一片都装饰有红辣椒和绿色蔬菜。这些鱼肉被排列成一个螺旋状，形成一种视觉上吸引人的设计。盘子放在紫色的餐桌上，旁边放着一双筷子，暗示这道菜是为多人准备的。图片右下角有一个数字“3/6”，可能表示这是整个系列中的第三件作品或菜品。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_088_126e690d9ca08846c4d67e1ef8a42568.jpg",
+        "caption": 
+            "图像中展示了一个小型陶瓷花瓶，置于白色表面上。花瓶呈圆形，底部略显粗糙，整体呈现出棕色和红色的色调，表面有明显的磨损痕迹。背景模糊不清，但似乎是一个室内环境，可能是在一个木制结构或家具上。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_077_66c862e9c54d67d389ee7d869528f47c.jpg",
+        "caption": 
+            "图像中展示了一只陶瓷碗，上面绘有鸟和云彩的图案。这只碗放在一个灰色的石制托盘上，托盘位于桌子中央。背景中可以看到另一只较小的碗，以及一个白色花瓶。整体场景营造出一种宁静而优雅的氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_033_0631edfaf34b6f6be58c38207fe2d076.jpg",
+        "caption": 
+            "图像中展示的是两颗深红色的核桃，它们被雕刻成独特的形状。这些核桃放在一个白色表面上，背景为纯白色，使核桃更加突出。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_033_36897a8c58f6cb75997681dd9680e451.jpg",
+        "caption": 
+            "图像中展示了一块石雕，雕刻成一朵花的形状。这块石头被放置在木桌上，并且看起来是用一种浅棕色或米色的石材制成的。花的图案非常精细，花瓣和叶子都清晰可见。背景是一个暗淡的颜色，这使得花的图案更加突出。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_033_eb7ea73c45acd57363ef7f742bf416f4.jpg",
+        "caption": 
+            "图像中展示了一台古董算盘，由黑色木制框架和金色金属条组成。算盘上排列着10行珠子，每行有9颗黑珠，共有90颗珠子。这些珠子被固定在一根根金黄色的杆子上，形成一个矩形结构。算盘放在木质表面上，背景为深色。图片右上角有一个水印，显示了网址7788.com。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_033_ae6f870473fcae0b3a2b2be991851975.jpg",
+        "caption": 
+            "图像中展示了一个高大的白色陶瓷花瓶，其表面装饰有精细的花卉图案。花瓶顶部略微弯曲，颈部细长，底部宽广。设计元素包括几朵盛开的花朵和枝条，以及一些绿色植物，这些都以细腻的釉彩呈现出来。背景为黑色，突出了花瓶的白色与彩色图案。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_033_15a4a0d910ce0757f079e0de07853416.jpg",
+        "caption": 
+            "盘子里有各种糕点，包括绿色和红色的。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_016_eb594360d6508908a544774280067d22.jpg",
+        "caption": 
+            "图像显示一群人跪在地板上，穿着白色帽子和外套。他们似乎正在参加一个宗教或仪式活动。背景中可以看到一些装饰品，可能是用于庆祝的物品。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_016_fd0166ea882da1f7bea974c6b39a7a06.jpg",
+        "caption": 
+            "图像中展示了一个蓝色面具，上面有红色和白色的设计。背景是一幅竹子图案的画作，画面中有粉色花朵点缀其中。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_016_c70253d4f9e547f1b33f3b96f80f1852.jpg",
+        "caption": 
+            "图像中展示了一座塔的轮廓，塔顶呈尖状。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_022_e3f06606bd42100629b94484ffe75993.jpg",
+        "caption": 
+            "夜晚的湖面，远处有一座高大的建筑被灯光照亮。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_003_7cea08d2fb5ede422916bba5ca1d9d83.jpg",
+        "caption": 
+            "僧人站在佛像前，面前摆放着各种水果和鲜花。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_003_dcc6231434cef2e8f94f372772d59936.jpg",
+        "caption": 
+            "图像中展示了一组五个不同大小的竹篮，每个篮子都装有不同的水果和坚果。其中一个篮子里有苹果、葡萄和香蕉，另一个篮子里装满了核桃，第三个篮子里则放着花生。这些篮子放在木桌上，背景是绿色墙壁。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_003_4834b158d38612942cac8a91e5f24f50.jpg",
+        "caption": 
+            "图像显示了一块布料，上面有花卉图案。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_003_2c91e1df7e008d11e6781d2feceb3cd3.jpg",
+        "caption": 
+            "图像中展示了一个灰色的陶瓷碗，置于一个圆形底座之上。碗和底座都呈现出一种古朴而优雅的设计风格。背景为黑色，使瓷器显得格外突出。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_003_43aec685c53647c747e13cf265733813.jpg",
+        "caption": 
+            "一位美丽的亚洲女性站在水边，穿着传统服饰。她留着长发，并佩戴着花环。她的服装包括一件白色上衣和一条蓝色的裙子，以及一件白色的外套。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_005_8ac96a37d682f4f60b8bdca9e7026758.jpg",
+        "caption": 
+            "图像中展示了一把剑，剑柄为木制，剑身银色。剑鞘上挂着一条红色的丝带，末端系着一个金色的结。剑的把手和剑刃都呈现出金属光泽，剑鞘则显得有些磨损。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_005_a2e9a4b93971ffcaa562afa7d28dbd6d.jpg",
+        "caption": 
+            "一个穿着粉红色连衣裙的女孩站在花瓶前，背景是粉色的花朵。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_140_5ece0e1317e88febeb2332003bb35b8e.jpg",
+        "caption": 
+            "图像中展示了一道美味的菜肴，由一个大碗中的汤和几根木制筷子组成。碗里装有各种食材，如蔬菜、肉类和香料，营造出诱人的视觉效果。旁边有几个小碟子，分别盛有不同的调料，包括辣椒酱、酱油和其他调味品，为这道菜增添了更多的风味选择。整体场景展示了精心准备的一顿饭，适合享用。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_005_f28e5d57aa30429b4d2613c5da0279ee.jpg",
+        "caption": 
+            "一座红色的寺庙建筑，屋顶上装饰着金色和蓝色的图案。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_107_0d78cae7a1cfba58c7d076d8f1c186e5.jpg",
+        "caption": 
+            "一位女士将头发扎成马尾，并用金色的发夹固定，同时她还戴着一顶由多个彩色珠子制成的发饰。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_098_9592bcb9063d024e1fdaffd470814ba0.jpg",
+        "caption": 
+            "图片中展示了一位穿着蓝色和粉色连衣裙的女性，裙子上绣有花卉图案。她站在左侧，双手叉腰，面带微笑。右侧是一位女子，她正在跳舞，手臂抬起并摆出一个优雅的姿态。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_129_14efec5762ba0ab407374a067e3dac0f.jpg",
+        "caption": 
+            "一位穿着红色和白色长裙的女性站在木制门廊前，手持一朵花。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_117_e1d9618fc31ba0b00250403010190bf3.jpg",
+        "caption": 
+            "穿着红色长袍的男子站在白色背景前。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_084_7096558c16f2772cf8ab25a8fde3a90d.jpg",
+        "caption": 
+            "图片展示了三种不同设计的发饰，分别展示在三个不同的场景中。第一个场景显示了三顶头饰，每顶都配有独特的装饰品和金色的发带。第二个场景展示了一位男士戴着蓝色头巾和金色发带，第三位女士则佩戴着银色皇冠和白色发带。这些物品似乎与古代或历史主题有关，并且可能用于服装或配饰。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_094_e50a02245f6edc2543ba1434a64e5326.jpg",
+        "caption": 
+            "图像中展示了一幅夜晚的场景，天空中有烟花绽放。画面中央有一个圆形的红色灯光装置，周围是明亮的白色和黄色火焰。背景是一片黑暗，只有烟花照亮了整个画面。图片顶部左上角有一个小窗口，里面显示了一些文字和符号，可能是与活动或地点相关的信息。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/16_taisu_images_folder_052_00eaf8dfd69a51ea5e371de192abeac8.jpg",
+        "caption": 
+            "图像中有一条人行道，两侧是高大的砖墙。墙上装饰着金色的圆圈和黄色的线条。在人行道上行走的人们穿着长袍，其中一人拄着拐杖。背景中有几座白色寺庙建筑，营造出一种宁静和平静的氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/19_taisu_images_folder_062_b4221864f57942b328065f2270d1a656.jpg",
+        "caption": 
+            "一位女士穿着红色的中式连衣裙，站在一个木质桌子旁边。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_033_18b1c1f1c9d21d40fc64de7a25623264.jpg",
+        "caption": 
+            "图像中有一群人，其中一人正在使用竹竿弹奏乐器。他们似乎在进行某种表演或练习活动。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_069_90fda1c56cfec3db089dbbc78e12bda0.jpg",
+        "caption": 
+            "四张图片中，孩子们穿着红色和蓝色的冬装，手持玩具。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_140_ce73a5de212c1f645292e0e2ddecfd79.jpg",
+        "caption": 
+            "图像中展示了一个大型花园，中央有一座高大的石拱门。拱门上方有中文字符“天安门广场”和一个红色的标志，表明这是一个重要的历史地标。周围环绕着绿色植物，包括一排盆栽植物和一片茂密的草地。背景中有树木和蓝天白云，营造出宁静宜人的氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_121_210b5818b8d44feba56dda207345ed35.jpg",
+        "caption": 
+            "图片展示了四道不同的中式美食。上左是一碗汤面，配有鸡蛋和青葱；上右是多个饺子整齐排列在托盘中；下左是一个装有肉丸的碗，旁边放着一个透明玻璃杯，里面装有葡萄；下右则是一份面条搭配各种配料。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_073_9ca24c8d88a05668507568f9d6bfb0e9.jpg",
+        "caption": 
+            "图像中展示了一个木质陀螺，其表面装饰有银色的图案。木制把手末端系着一条棕色绳子，绳子上挂着一个小铃铛。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_054_2ce442a4de1bdb2ffd388e945a88e4d5.jpg",
+        "caption": 
+            "图片中展示了一位女士穿着中式长裙，裙子为蓝色和红色两种颜色。她站在背景前，双手交叉在胸前，面带微笑。她的发型是黑色的，并且留有刘海。这位女士似乎正在参加一个正式活动或庆祝场合。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_133_02091b79c464e22cbc624447d3540fc6.jpg",
+        "caption": 
+            "图像中展示了一座大型砖砌的城堡，背景中有几座传统的中国建筑。城堡周围有高高的围栏，栅栏上挂着旗帜。城堡和建筑物位于一片荒凉的土地之上，土地被岩石覆盖，并且有一些植被生长在上面。天空晴朗，没有云彩。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_149_39a764a0a9516ac06bc07c8e5cbf3a00.jpg",
+        "caption": 
+            "图像中展示了一名厨师在铁锅里烹饪食物，使用了手套以保护双手。锅中的食物看起来是煎饼或薄饼，正在被翻转并加热。背景中有火焰，表明烹饪过程正在进行。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_014_e8184ff301a507613adb8b6c465c986f.jpg",
+        "caption": 
+            "图像中展示了一件古董青铜雕像，其形状类似于一个带有尖刺的动物头。雕像由绿色和黑色的金属制成，显示出一种锈蚀效果，表明它可能已经存在了很长时间。雕像的头部部分有三个突出的部分，可能是代表眼睛或耳朵的装饰元素。雕像的颈部有一个开口，这可能用于放置物品或其他功能。整体而言，这件雕塑具有独特的设计，并且看起来是一件有价值的文物。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_113_c37d56330ddd0e8a40899d7e71038da1.jpg",
+        "caption": 
+            "图像中展示了一台古董算盘，由木头制成。算盘有两排珠子，每排10个，共有20个珠子。这些珠子被固定在一根细长的杆上，形成一个矩形框架。算盘看起来非常古老且磨损，显示出其历史价值和使用时间较长的事实。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/11_taisu_images_folder_028_f722fa539ef120edc332b18533f60eaf.jpg",
+        "caption": 
+            "图像描绘了一群人在黄昏时分穿越沙漠的场景，他们骑着骆驼。画面中至少有12个人和10匹骆驼，营造出一种宁静而壮丽的氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_140_d42d37d6f73050256a1da6889455715c.jpg",
+        "caption": 
+            "图像描绘了一个夜晚的湖泊，湖面上有一座桥和一座灯塔。这座桥由石块建造，并被灯光照亮，而灯塔则位于画面右侧。背景中可以看到山脉，天空呈现出蓝色和紫色的渐变色。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_024_c1187ab2ff43264284bc434d2d907e15.jpg",
+        "caption": 
+            "图像显示一个红色的消防栓，旁边有一个喷出大量烟雾和火花的装置。附近有一条红色的水管，似乎与消防栓相连。背景中可以看到砖墙和一些杂乱物品，如袋子和瓶子。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_144_b15484e51a6bb4b42a8e465c1913cae5.jpg",
+        "caption": 
+            "一张手举在前面，背景是故宫。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_029_a05c7971739e47852d2b1b4d5dd1ff4a.jpg",
+        "caption": 
+            "图像中有一座长桥，桥上有许多人在上面行走。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_122_059cda1e0deffe17bbaa37a4734a5763.jpg",
+        "caption": 
+            "图像中展示了一个红色的木盒，上面装饰有金色和粉色的花卉图案。盒子上有一个金色的锁扣，两侧各有一个把手，顶部中央还有一个金色的装饰。盒子放在黑色的地面上，周围散落着一些小粉球。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/14_taisu_images_folder_077_117dbb6f1b5faa514d4b11474c312642.jpg",
+        "caption": 
+            "图像描绘了一群人围坐在一张大圆桌旁，桌上摆满了食物和餐具。画面中共有七个人，包括一个小孩、两个成年人和四个孩子。他们穿着传统服饰，如红色的长袍和蓝色的衬衫。每个人都在用餐或交谈，营造出一种家庭聚会的氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/17_taisu_images_folder_094_32c3ee0cfaf349536c91e4ac1702fdbd.jpg",
+        "caption": 
+            "图像中展示了一株植物，枝条上长满了黄色的花朵和绿色的叶子。背景是一个明亮的黄色圆圈，象征着月亮或太阳。植物位于画面中央，周围环绕着深蓝色的边框，增强了整体视觉效果。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/14_taisu_images_folder_105_c65442ac4ee17c29279f04f72d2357d6.jpg",
+        "caption": 
+            "图像描绘了一个家庭在月光下坐在屋顶上，背景是满月和烟花。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/14_taisu_images_folder_058_37a16a03371c751ec73b34dd5d0947ee.jpg",
+        "caption": 
+            "图像中展示了一个透明的塑料容器，顶部有一个蓝色的旋钮。容器上有一个圆形的白色标签，上面有测量刻度和一些文字。容器底部边缘有一个橡胶垫以防止滑动。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/14_taisu_images_folder_081_2485920d8c980beecd9edbb0af058013.jpg",
+        "caption": 
+            "图像描绘了一家人围坐在餐桌旁共进晚餐的场景。餐桌上摆满了各种菜肴，包括一碗汤和几盘蔬菜。画面中的人物穿着传统服饰，营造出一种节日氛围。背景是一扇红色窗帘，窗外可以看到一轮明亮的月亮。整体色调温暖而亲切，反映了家庭团聚的美好时刻。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/14_taisu_images_folder_137_2521679f8e82b1faa0dc095778b8df9c.jpg",
+        "caption": 
+            "一对夫妇站在长城前摆姿势拍照。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/12_taisu_images_folder_135_07dd8d2ad0608cd530a5e74d4515eda5.jpg",
+        "caption": 
+            "图像中展示了一艘装饰华丽的船，背景是满月。船头有一个金色的龙形图案，船尾有红色灯笼。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/12_taisu_images_folder_066_ffa28e0fb04340ddacec53021734984e.jpg",
+        "caption": 
+            "图像显示一名护士正在为一名男子进行身体检查，该男子躺在病床上。护士穿着白色防护服和蓝色口罩，而男子则穿着条纹衬衫。背景中还有三名其他医护人员坐在桌子旁，可能在等待他们的轮次或观察正在进行的检查过程。房间内有几瓶水放在桌子上，以及一张椅子靠近护士。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/15_taisu_images_folder_003_f62be6d1ee6463af2a577e1129681b95.jpg",
+        "caption": 
+            "图像中展示了一幅宁静的景色，画面中有几座古色古香的中式建筑。这些建筑被树木环绕，并且屋顶覆盖着雪，营造出一种冬日氛围。建筑物之间有一条小桥横跨水面，连接了不同的区域。水面上方弥漫着一层雾气，增强了整个场景的神秘感和宁静感。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/15_taisu_images_folder_001_4cb81b66451a02252a083cdd97a8a9aa.jpg",
+        "caption": 
+            "图像中展示了一对中国陶瓷人物雕像，一位女性跪坐在一个岩石基座上，另一位男性站在她旁边。女性穿着红色和蓝色的服装，头部装饰有花朵，而男性则穿着绿色和金色的衣服，并戴着头饰。他们似乎在进行某种仪式或对话。背景是灰色的墙壁，使场景更加突出这些精美的雕塑。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/15_taisu_images_folder_103_82b5673bc339572449e805ed68bb49ad.jpg",
+        "caption": 
+            "图像中有一只白色的小兔子坐在黄色的盘子上，旁边放着一些糕点。背景中有多个灯笼在空中飘动，营造出一种节日氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/15_taisu_images_folder_054_6b48188d4f61f21c3a3b8bbd446ddbd7.jpg",
+        "caption": 
+            "图像中展示了一尊金色的佛像，佛像位于画面中央。佛像被描绘为女性形象，双手合十祈祷，双腿交叉坐在莲花座上。佛像周围环绕着各种装饰品和符号，包括一个手持弓箭的神祇、一个拿着球形物体的神祇以及一个手持宝瓶的神祇。背景是黑色的墙壁，上面有金色的装饰图案。在佛像右侧有一个中文字符“观音”，表明这尊佛像是观音菩萨。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/18_taisu_images_folder_003_f64e8de41a9d6f26c0ca2f00ad502d92.jpg",
+        "caption": 
+            "图像中展示了一座精美的青铜雕像，由多个人物组成。这些人物被雕刻成不同的姿势和表情，展现了丰富的细节和艺术技巧。他们似乎处于一个动态的场景之中，可能象征着某种仪式或宗教活动。雕像表面呈现出一种金属质感，突出了其工艺水平。背景是黑色的，这使得雕像更加突出，并强调了它的存在感。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/18_taisu_images_folder_149_bea2c907770ed19a532f9a01a3306525.jpg",
+        "caption": 
+            "图片展示了一组中国陶瓷家具，包括一个圆形餐桌和四个配套的凳子。这些凳子和桌子都装饰有蓝色花卉图案，与白色背景形成鲜明对比。桌子和凳子上还印有中文文字“瓷桌正面图”，表明它们是中国传统的瓷器制品。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/15_taisu_images_folder_009_3ab4254b41928d39cc0bc4b9cda24ee0.jpg",
+        "caption": 
+            "一群人在户外的桌子旁聚在一起，其中一人坐在地上。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/18_taisu_images_folder_010_8b6c14ac7d71a60195225d14e0ac2cf0.jpg",
+        "caption": 
+            "图像中展示了一群人聚集在一座古色古香的建筑前，可能是在参加一个活动或仪式。人群中有许多人坐在长凳上，而其他人则站着观看。有些人手里拿着手机拍照，捕捉这一刻的美好回忆。建筑物前方的地面上放着几只黄色气球，增添了节日的气氛。背景中的树木为场景增添了一抹绿色，使整体氛围显得更加生动和亲切。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/18_taisu_images_folder_035_fd0ba5ec2aeab3bbbf60d1b47f6fe75c.jpg",
+        "caption": 
+            "图像中展示了一组六幅描绘中国新年庆祝活动的插图。每幅插图都包含一个家庭或一群人在红色灯笼和烟花环绕下聚集在一起的情景，营造出节日氛围。\n\n第一幅插图显示了一个五口之家在红灯笼前合影，背景中有“Happy New Year”字样。第二幅插图展示了四个人围坐在餐桌旁，桌上摆满了食物，周围有红色装饰品。第三幅插图描绘了三个人在一家人的陪伴下一起跳舞，背景中有“Happy New Year”字样。第四幅插图则展现了两个人在一家人的陪同下握手，背景中有“Happy New Year”字样。第五幅插图描绘了一家人在餐厅里共进晚餐，餐桌上摆放着各种菜肴，背景中有“Happy New Year”字样。最后一幅插图展示了一个人抱着孩子，在一家人的陪伴下行走，背景中有“Happy New Year”字样。\n\n这些插图捕捉到了中国新年期间欢乐、团聚和庆祝的精髓。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/18_taisu_images_folder_010_2148ee9f12adebf648079321e1c20c03.jpg",
+        "caption": 
+            "图像中展示了一根银色的剪刀，其末端有一个小型金属装饰品。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/13_taisu_images_folder_135_5e5e872d45aac13cd6246cb2ea65b11c.jpg",
+        "caption": 
+            "图像中展示了一名男子站在一个昏暗的户外区域，他指向建筑物上的某物。该男子背着背包，并且似乎在与坐在椅子上的人交谈。背景中有几扇窗户和一扇门，以及一些衣物挂在晾衣绳上。画面底部右下角有“LEIU”字样，表明这可能是拍摄地点或相关组织。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/13_taisu_images_folder_088_95d68d6faad9159783878d5a2fd53e32.jpg",
+        "caption": 
+            "图像中有一棵垂柳树，枝条垂下覆盖在水面之上。背景是一片黑暗的天空，月亮高悬其中。画面中央可以看到一座灯光照亮的建筑，反射出美丽的倒影。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/13_taisu_images_folder_088_83ad2f255366c65a0834ff9d5303432e.jpg",
+        "caption": 
+            "图像中展示了一顶华丽的头饰，由金色和红色宝石以及珍珠制成。头饰覆盖在一位穿着红色服装的人的头上，这位人物被描绘成一个没有脸庞的男性或女性人偶。头饰的设计复杂且精致，展示了其工艺水平。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/13_taisu_images_folder_088_d7bc1086424890b54658aebad15b3ddb.jpg",
+        "caption": 
+            "图像中展示了一座由红色、黄色和绿色岩石组成的山峰，呈现出独特的三角形形状。这些颜色的岩石在不同的角度下形成了鲜明对比，突出了山脉的美丽。背景中的天空是蓝色的，为场景增添了一抹宁静和平静的气息。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/13_taisu_images_folder_122_088da7c79e0b745b22d674aeb95f2980.jpg",
+        "caption": 
+            "图像中展示了一座雄伟的寺庙，位于山顶之上。这座寺庙由多层建筑组成，屋顶呈红色，并且在顶部设有金色装饰。寺庙周围环绕着山脉和树木，营造出宁静而美丽的环境。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/13_taisu_images_folder_043_2900181f6ef1edd5daa9e5bbb766073e.jpg",
+        "caption": 
+            "图像中展示了一个大型喷泉，周围被鲜艳的花坛环绕。喷泉中心有一个高大的水柱，水从顶部喷出并形成一个圆形图案。背景是一栋红色建筑，屋顶呈黄色，上面有旗帜飘扬。画面中有许多人聚集在喷泉和花坛周围，享受着节日氛围。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_005_f2787c59af70c0cb69adbd8a235dce16.jpg",
+        "caption": 
+            "图像中展示了一条河，河岸两侧是传统的中国建筑。建筑物的屋顶呈红色，并装饰有黑色和白色元素。河面看起来有些浑浊，可能是由于水中的悬浮物或污染所致。在河中央可以看到一艘小船，船上有人正在划行。整体氛围宁静祥和，展现了中国传统城市的美丽景色。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_066_253df337d5763c68c3a7cd11d485689a.jpg",
+        "caption": 
+            "图像中展示了一个大型花束和一个较小的花束，两者都由黄色花朵、绿色叶子以及粉色蝴蝶结装饰组成。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_005_941bf7c73cea3ad23eafe7e4930d222d.jpg",
+        "caption": 
+            "图像中展示了一组彩色灯光装饰的花环，这些花环在夜晚被点亮。它们以各种形状和颜色排列，包括紫色、蓝色、黄色和粉色。背景是黑暗的天空，营造出一种神秘而梦幻的感觉。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_111_a498b71d0d21846249d7f8a219bf3599.jpg",
+        "caption": 
+            "图像中展示的是两只金色的狮子雕像，它们并排站立在木质背景前。每只狮子都装饰有红色宝石和金色装饰品，使其显得非常华丽。这些雕像可能象征着保护或好运，并且可能是中国文化的象征。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_054_5c40b96ff5d8cd2c259354e4c371e145.jpg",
+        "caption": 
+            "一位女士穿着红色的中式长裙，站在一个房间里。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_140_9e922675f79a4286a2e712d27153a1b2.jpg",
+        "caption": 
+            "一位女士穿着中式长裙，站在客厅里。"
+          },
+    {
+        "image_path": "/share/project/zpf/code/MCCU/datasets/image/taisu/10_taisu_images_folder_020_70aab09dde27935e1f3373efa8f40fdf.jpg",
+        "caption": 
+            "图片展示了多张不同场景的警察队伍，包括站立、行进和敬礼等动作。有些照片中可以看到花束，表明可能是一个纪念活动或仪式。"
+        
+    }
+]
