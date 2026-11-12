@@ -1,0 +1,6 @@
+score输出格式:
+background_score: 100
+object_score: 92
+text_score: 0
+culture_score: 95
+total_score: 95

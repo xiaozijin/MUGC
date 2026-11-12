@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MUGC evaluation score record",
+  "description": "One parsed scoring record for a (sample, model) pair. sample_id and text_applicable are added by the parser; the model emits only the five scores.",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "background_score",
+    "object_score",
+    "text_score",
+    "culture_score",
+    "total_score"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "description": "Identifier of the (sample, model) pair."
+    },
+    "background_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "object_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "text_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "culture_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "total_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "text_applicable": {
+      "type": "boolean",
+      "description": "False when neither the reference nor the Test Caption contains text; in that case text_score is 0 and is excluded from total_score."
+    }
+  },
+  "additionalProperties": false
+}

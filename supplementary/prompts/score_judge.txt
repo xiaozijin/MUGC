@@ -1,0 +1,28 @@
+请根据以下两个 caption 完成两个步骤，但最终只输出评分结果。
+
+步骤1（内部处理，不输出）：
+从 test caption 中提取结构化信息：background（背景）、object（对象及其外观/动作/位置）、text（引号内文本，无则为空）、culture（文化内容）。仅用于内部比较，不要输出 JSON。
+
+步骤2（需要输出）：
+将 gold caption 与结构化后的 test caption 在 background、object、text、culture 四方面各给出 0-100 相似度评分。
+total_score 依据四个维度的有效语义覆盖做动态加权，不要简单平均；缺失的维度不参与总分，也不因此降低得分。
+
+最终输出格式（严格）：
+score输出格式:
+background_score: [0-100]
+object_score: [0-100]
+text_score: [0-100]
+culture_score: [0-100]
+total_score: [0-100]
+
+要求：
+- score 仅五个分数，0-100。
+- 不输出步骤1的 JSON，不重复输入内容。
+- 若 text 在 gold 与 test 均为空，text_score 为 0 且不参与总分。
+- 只输出上述格式，不加其他内容。
+
+gold caption:
+{gold_caption}
+
+test caption:
+{test_caption}

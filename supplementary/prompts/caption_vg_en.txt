@@ -1,0 +1,2 @@
+The given image is a frame from a video clip. Try to generate a detailed description of that video clip. Accurately describe the prominent objects and their relationships, the features of the scene, any possible text, the camera movement, and so on. Describe the content of the video directly. Do not use words such as "video", "frame", "image", "clip", "sequence", "segment". Please answer in English.
+The description of the video is: 
